@@ -1,247 +1,88 @@
 import os
 import pickle
 import pandas as pd
-
+import numpy as np
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_MODEL_PATH = os.path.join(BASE_DIR, "../classifier/model.pkl")
 
-
 class RiskDecisionEngine:
-
     def __init__(self, model_path=DEFAULT_MODEL_PATH):
         self.model_path = model_path
-
+        
         if not os.path.exists(self.model_path):
-            raise FileNotFoundError(
-                f"Model artifact not found at {self.model_path}. "
-                "Run classifier/train.py first."
-            )
-
-        print(f"Loading decision engine artifact from {self.model_path}...")
-
+            raise FileNotFoundError(f"Model artifact not found at {self.model_path}. Run train.py first.")
+        
         with open(self.model_path, "rb") as f:
             artifact = pickle.load(f)
-
+            
         self.model = artifact["model"]
         self.encoders = artifact["encoders"]
         self.feature_names = artifact["features"]
-
-        # SHAP is used only for explanation.
-        # It does NOT participate in the decision itself.
-        self.explainer = artifact.get("explainer")
-
-        # Business-policy parameters
-        self.fee_dispute = float(
-            artifact.get("fee_dispute", 500.0)
-        )
-
-        self.min_contest_amount = float(
-            artifact.get("min_contest_amount", 1500.0)
-        )
-
-        self.confidence_threshold = 0.70
-
-    # ---------------------------------------------------------
-    # Feature preprocessing
-    # ---------------------------------------------------------
-
-    def _prepare_features(self, dispute_data: dict):
-        processed_data = dispute_data.copy()
-
-        for column, encoder in self.encoders.items():
-
-            if column not in processed_data:
-                continue
-
-            value = processed_data[column]
-
-            if value in encoder.classes_:
-                processed_data[column] = encoder.transform([value])[0]
-            else:
-                # Unknown categorical value.
-                # XGBoost cannot use the raw string, so encode it
-                # as an explicit unknown category.
-                processed_data[column] = -1
-
-        missing_features = [
-            feature
-            for feature in self.feature_names
-            if feature not in processed_data
-        ]
-
-        if missing_features:
-            raise ValueError(
-                f"Missing required features for inference: "
-                f"{missing_features}"
-            )
-
-        feature_values = [
-            processed_data[feature]
-            for feature in self.feature_names
-        ]
-
-        return pd.DataFrame(
-            [feature_values],
-            columns=self.feature_names
-        )
-
-    # ---------------------------------------------------------
-    # SHAP explanation
-    # ---------------------------------------------------------
-
-    def _calculate_shap(self, X):
-        if self.explainer is None:
-            return []
-
-        shap_values = self.explainer.shap_values(X)
-
-        # Handle different SHAP/XGBoost output formats.
-        if isinstance(shap_values, list):
-            values = shap_values[1][0]
-
-        elif getattr(shap_values, "ndim", 0) == 3:
-            values = shap_values[0, :, 1]
-
-        else:
-            values = shap_values[0]
-
-        feature_impacts = sorted(
-            zip(
-                self.feature_names,
-                values,
-                X.iloc[0].tolist()
-            ),
-            key=lambda item: abs(item[1]),
-            reverse=True
-        )
-
-        shap_summary = []
-
-        for feature, impact, value in feature_impacts:
-
-            if impact > 0:
-                direction = "positive"
-            elif impact < 0:
-                direction = "negative"
-            else:
-                direction = "neutral"
-
-            shap_summary.append({
-                "feature": feature,
-                "impact": round(float(impact), 4),
-                "direction": direction,
-                "value": value
-            })
-
-        return shap_summary
-
-    # ---------------------------------------------------------
-    # Main decision pipeline
-    # ---------------------------------------------------------
+        self.explainer = artifact.get("explainer", None)
+        self.fee_dispute = artifact.get("fee_dispute", 500.0)
+        self.min_contest_amount = artifact.get("min_contest_amount", 1500.0)
 
     def evaluate_dispute(self, dispute_data: dict) -> dict:
+        processed_data = dispute_data.copy()
+        amount = float(dispute_data.get('amount_inr', 0.0))
+        
+        for col, encoder in self.encoders.items():
+            if col in processed_data:
+                val = processed_data[col]
+                if val in encoder.classes_:
+                    processed_data[col] = encoder.transform([val])[0]
+                else:
+                    processed_data[col] = -1 
+        
+        features = [processed_data[feat] for feat in self.feature_names]
+        X = pd.DataFrame([features], columns=self.feature_names)
+        prob_win = float(self.model.predict_proba(X)[0][1])
+        
+        # 1. Calculate Dynamic Break-Even Probability: Fee / (Amount + Fee)
+        break_even_prob = self.fee_dispute / (amount + self.fee_dispute)
 
-        amount = float(
-            dispute_data.get("amount_inr", 0.0)
-        )
+        # 2. Calculate Financial Expected Value (EV)
+        expected_value = (prob_win * amount) - ((1 - prob_win) * self.fee_dispute)
+        
+        # 3. SHAP Feature Impact Extraction (Optional explainability layer)
+        shap_summary = []
+        if self.explainer:
+            shap_values = self.explainer.shap_values(X)
+            vals = shap_values[1][0] if isinstance(shap_values, list) else shap_values[0, :, 1]
+            feature_impacts = sorted(zip(self.feature_names, vals, features), key=lambda x: abs(x[1]), reverse=True)
+            for feat, val, raw_val in feature_impacts:
+                shap_summary.append({"feature": feat, "impact": float(val), "direction": "+" if val > 0 else "-", "value": raw_val})
 
-        if amount <= 0:
-            raise ValueError(
-                "amount_inr must be greater than zero."
-            )
+        # 4. Three-Way Decision Hierarchy using Dynamic Break-Even & Risk Floors
+        ABSOLUTE_MIN_WIN_PROB = 0.35
 
-        # -----------------------------------------------------
-        # 1. MODEL
-        # -----------------------------------------------------
-
-        X = self._prepare_features(dispute_data)
-
-        prob_win = float(
-            self.model.predict_proba(X)[0][1]
-        )
-
-        # -----------------------------------------------------
-        # 2. SHAP
-        # -----------------------------------------------------
-
-        shap_factors = self._calculate_shap(X)
-
-        # -----------------------------------------------------
-        # 3. FINANCIAL DECISION
-        # -----------------------------------------------------
-
-        expected_value = (
-            prob_win * amount
-            - (1 - prob_win) * self.fee_dispute
-        )
-
-        # -----------------------------------------------------
-        # 4. DETERMINISTIC POLICY
-        # -----------------------------------------------------
-
+        # Operational Friction Floor
         if amount < self.min_contest_amount:
-
             decision = "AUTO_ACCEPT"
-
-            reason = (
-                f"Amount (₹{amount:,.2f}) is below the "
-                f"operational minimum threshold "
-                f"(₹{self.min_contest_amount:,.2f})."
-            )
-
-        elif expected_value <= 0:
-
+            reason = f"Amount (₹{amount:,.2f}) is below operational minimum threshold (₹{self.min_contest_amount:,.2f})."
+        
+        # Economically Unviable or Below Absolute Confidence Floor
+        elif expected_value <= 0 or prob_win <= break_even_prob or prob_win < ABSOLUTE_MIN_WIN_PROB:
             decision = "AUTO_ACCEPT"
-
-            reason = (
-                f"Contesting has negative expected value "
-                f"(EV: ₹{expected_value:,.2f})."
-            )
-
-        elif prob_win >= self.confidence_threshold:
-
-            decision = "AUTO_CONTEST"
-
-            reason = (
-                f"Positive EV and high model confidence "
-                f"(P(win): {prob_win * 100:.1f}% >= "
-                f"{self.confidence_threshold * 100:.0f}%)."
-            )
-
-        else:
-
+            reason = f"Negative EV, break-even, or P(win) ({prob_win*100:.1f}%) below minimum risk floor ({ABSOLUTE_MIN_WIN_PROB*100}%)."
+        
+        # Borderline Zone: Between absolute floor/break-even and 55% confidence for manual review
+        elif prob_win < 0.55:
             decision = "MANUAL_REVIEW"
-
-            reason = (
-                f"Positive EV (₹{expected_value:,.2f}) but "
-                f"model confidence is below the automatic "
-                f"contest threshold "
-                f"(P(win): {prob_win * 100:.1f}% < "
-                f"{self.confidence_threshold * 100:.0f}%)."
-            )
-
-        # -----------------------------------------------------
-        # 5. STRUCTURED RESULT
-        # -----------------------------------------------------
+            reason = f"Positive EV (₹{expected_value:,.2f}), but P(win) ({prob_win*100:.1f}%) sits within the manual review uncertainty zone (< 55%)."
+        
+        # High Confidence Automation
+        else:
+            decision = "AUTO_CONTEST"
+            reason = f"Positive EV (₹{expected_value:,.2f}) and high model confidence (P(win): {prob_win*100:.1f}% >= 55%)."
 
         return {
             "decision": decision,
-
-            # Model layer
             "prob_win": round(prob_win, 4),
-
-            # Financial layer
-            "amount_inr": round(amount, 2),
             "expected_value_inr": round(expected_value, 2),
-            "fee_assumed_inr": round(self.fee_dispute, 2),
-
-            # Policy layer
-            "confidence_threshold": self.confidence_threshold,
-            "minimum_contest_amount_inr": self.min_contest_amount,
-
+            "break_even_prob": round(break_even_prob, 4),
+            "fee_assumed_inr": self.fee_dispute,
             "reason": reason,
-
-            # Explainability layer
-            "shap_factors": shap_factors
+            "shap_factors": shap_summary
         }

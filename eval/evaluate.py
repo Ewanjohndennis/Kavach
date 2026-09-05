@@ -26,7 +26,6 @@ MODEL_PATH = os.path.join(
 
 FEE_DISPUTE = 500.0
 MIN_CONTEST_AMOUNT = 1500.0
-AUTO_CONTEST_THRESHOLD = 0.70
 
 
 def evaluate():
@@ -68,7 +67,7 @@ def evaluate():
     df["prob_win"] = probabilities
 
     # ---------------------------------------------------------
-    # Expected Value
+    # Expected Value & Dynamic Break-Even Probability
     # ---------------------------------------------------------
 
     df["expected_value"] = (
@@ -77,8 +76,10 @@ def evaluate():
         (1 - df["prob_win"]) * FEE_DISPUTE
     )
 
+    df["break_even_prob"] = FEE_DISPUTE / (df["amount_inr"] + FEE_DISPUTE)
+
     # ---------------------------------------------------------
-    # Three-way decision hierarchy
+    # Three-way decision hierarchy (Aligned with decision.py)
     # ---------------------------------------------------------
 
     def decide(row):
@@ -86,17 +87,20 @@ def evaluate():
         amount = row["amount_inr"]
         ev = row["expected_value"]
         probability = row["prob_win"]
+        break_even = row["break_even_prob"]
+        
+        ABSOLUTE_MIN_WIN_PROB = 0.35
 
         if amount < MIN_CONTEST_AMOUNT:
             return "AUTO_ACCEPT"
 
-        if ev <= 0:
+        if ev <= 0 or probability <= break_even or probability < ABSOLUTE_MIN_WIN_PROB:
             return "AUTO_ACCEPT"
 
-        if probability >= AUTO_CONTEST_THRESHOLD:
-            return "AUTO_CONTEST"
+        if probability < 0.55:
+            return "MANUAL_REVIEW"
 
-        return "MANUAL_REVIEW"
+        return "AUTO_CONTEST"
 
     df["decision"] = df.apply(
         decide,
@@ -105,10 +109,6 @@ def evaluate():
 
     # ---------------------------------------------------------
     # ML metrics
-    #
-    # For precision/recall, we're asking:
-    # "When Kavach automatically contests,
-    #  was the dispute actually winnable?"
     # ---------------------------------------------------------
 
     predicted_contest = (
