@@ -1,0 +1,2001 @@
+amount_inr,days_since_order,has_delivery_signature,device_hash_match,avs_match,customer_past_disputes,payment_method,is_weekend,merchant_category,ground_truth_won
+4468.23,15,1,1,1,0,UPI,0,Electronics,1
+6896.0,8,0,0,0,0,Debit Card,0,Food,0
+1948.84,29,1,1,1,1,Credit Card,0,Travel,1
+1410.71,6,0,0,1,1,Credit Card,0,Food,0
+477.56,24,0,1,1,1,UPI,0,Electronics,0
+9247.8,23,0,1,1,0,Credit Card,0,Electronics,1
+3558.79,18,1,1,1,1,Credit Card,0,Food,1
+4299.48,12,0,1,1,0,Credit Card,0,Fashion,1
+1598.66,24,1,1,1,0,Credit Card,0,Electronics,1
+11932.44,14,1,1,1,0,Debit Card,1,Digital Goods,1
+8988.66,1,1,1,0,0,Credit Card,1,Food,1
+3098.56,7,0,1,0,0,Credit Card,0,Travel,1
+2007.52,3,0,1,1,1,UPI,0,Food,0
+2449.96,12,1,1,0,0,UPI,0,Food,1
+1574.81,24,0,1,1,1,Debit Card,0,Electronics,1
+3594.22,25,1,1,1,0,Debit Card,1,Travel,1
+1890.03,1,1,1,1,1,UPI,0,Electronics,1
+6285.88,25,1,0,0,1,UPI,0,Fashion,1
+2443.17,25,1,1,1,1,UPI,0,Fashion,1
+2456.67,9,1,1,1,0,Credit Card,1,Electronics,1
+16281.28,19,0,1,1,0,UPI,0,Travel,1
+1693.92,28,0,1,1,0,Credit Card,0,Electronics,0
+729.68,29,1,1,1,1,Credit Card,0,Electronics,1
+5047.93,23,0,1,1,0,Debit Card,1,Fashion,0
+438.19,18,1,1,1,0,UPI,0,Electronics,1
+4559.17,3,0,0,0,0,UPI,0,Travel,0
+9341.65,12,1,1,1,0,Credit Card,0,Digital Goods,1
+3754.21,10,0,0,1,1,Debit Card,0,Fashion,0
+3532.61,28,1,1,1,0,UPI,1,Fashion,1
+450.3,27,0,1,1,0,Credit Card,0,Digital Goods,1
+6098.65,2,1,1,1,0,Credit Card,0,Food,1
+5202.06,8,1,1,1,0,Debit Card,1,Electronics,1
+1084.12,18,1,1,1,0,Credit Card,0,Digital Goods,1
+23710.87,11,0,1,1,0,Debit Card,1,Food,1
+1029.16,3,0,1,1,0,Debit Card,1,Electronics,1
+652.77,24,0,0,0,1,Debit Card,1,Electronics,0
+572.18,21,0,1,1,0,Credit Card,0,Fashion,0
+3592.09,13,1,1,1,2,Debit Card,0,Fashion,1
+4906.86,6,1,1,1,0,Credit Card,1,Food,1
+5439.77,24,0,1,0,0,UPI,0,Electronics,0
+2497.78,20,0,1,1,0,Credit Card,1,Travel,1
+1552.84,25,1,0,0,1,Credit Card,0,Electronics,1
+8129.73,27,0,0,1,1,Debit Card,0,Food,1
+1426.43,28,1,1,1,0,Credit Card,1,Food,1
+1043.86,2,1,0,1,0,Credit Card,0,Food,0
+14211.89,14,0,0,0,0,Debit Card,0,Digital Goods,0
+4180.1,1,1,1,1,0,UPI,0,Digital Goods,1
+5607.21,17,0,1,1,1,UPI,0,Fashion,0
+6544.36,4,1,0,0,0,Credit Card,0,Electronics,1
+1975.79,8,1,1,1,0,Credit Card,0,Electronics,1
+2054.23,8,1,1,1,0,UPI,0,Digital Goods,1
+6641.55,22,1,1,1,0,Credit Card,0,Fashion,1
+1888.18,7,1,1,1,0,Credit Card,0,Fashion,0
+4897.79,24,1,1,1,0,Debit Card,1,Digital Goods,1
+3200.49,20,0,1,1,0,Credit Card,0,Fashion,0
+1060.24,7,1,1,1,0,Credit Card,0,Fashion,1
+9199.54,27,1,1,0,0,Credit Card,0,Fashion,0
+964.06,2,0,1,0,0,Credit Card,1,Travel,1
+4418.17,26,1,1,0,0,Credit Card,0,Food,1
+3742.48,20,1,1,0,1,UPI,0,Fashion,0
+12420.82,23,0,1,0,1,Credit Card,1,Digital Goods,0
+1142.41,7,1,1,1,1,UPI,0,Travel,1
+2033.11,20,0,1,0,0,Debit Card,0,Digital Goods,0
+3165.96,17,1,1,1,1,UPI,1,Fashion,1
+4193.81,27,1,0,1,0,UPI,0,Fashion,1
+8341.31,8,0,0,1,0,UPI,0,Digital Goods,0
+4777.23,1,0,0,1,0,Credit Card,0,Food,1
+3588.1,14,1,1,0,0,Credit Card,0,Fashion,0
+9787.45,25,1,1,1,0,UPI,0,Digital Goods,1
+28469.31,16,0,1,1,0,UPI,0,Food,0
+902.34,14,0,1,1,1,UPI,0,Travel,0
+3479.94,15,0,1,1,1,Credit Card,1,Electronics,1
+7481.27,6,0,1,1,2,Debit Card,0,Fashion,1
+3813.34,16,1,1,1,0,Credit Card,0,Electronics,1
+14693.43,25,0,1,0,0,Debit Card,0,Travel,0
+2505.76,11,1,1,1,0,UPI,0,Food,1
+1269.67,1,1,1,0,0,Credit Card,0,Electronics,1
+8358.46,5,1,0,1,3,Credit Card,0,Fashion,0
+218.68,15,1,1,1,0,Debit Card,0,Fashion,1
+2174.95,25,1,0,1,0,UPI,0,Fashion,1
+37294.38,13,1,0,1,0,Debit Card,0,Travel,1
+3593.07,25,0,1,1,0,UPI,1,Fashion,1
+5005.45,10,0,1,1,0,Credit Card,1,Travel,1
+1351.42,29,1,1,1,0,Credit Card,1,Digital Goods,1
+3419.78,22,1,1,1,0,UPI,0,Fashion,1
+3036.07,2,1,1,1,1,Debit Card,0,Food,1
+22445.71,18,0,1,1,1,Debit Card,0,Digital Goods,1
+1274.66,24,0,1,1,0,Credit Card,0,Fashion,1
+221.13,9,1,1,1,0,Credit Card,1,Digital Goods,0
+5256.23,6,1,1,1,0,Credit Card,0,Food,1
+16490.41,15,1,1,1,1,UPI,1,Fashion,0
+1757.86,16,1,1,1,0,Debit Card,0,Food,0
+565.09,28,1,1,1,0,Debit Card,0,Fashion,0
+1197.15,1,0,1,1,0,Credit Card,0,Electronics,1
+5399.64,13,1,1,1,0,Debit Card,0,Electronics,1
+1994.72,5,1,0,1,0,UPI,1,Electronics,1
+3651.51,26,1,1,1,0,Debit Card,1,Electronics,1
+331.29,8,0,1,1,0,Debit Card,1,Fashion,1
+2080.07,9,0,1,1,0,Credit Card,0,Electronics,1
+7698.53,5,1,1,1,1,UPI,0,Electronics,1
+2686.13,12,1,1,1,0,Debit Card,0,Electronics,1
+1256.99,18,1,0,1,0,UPI,1,Fashion,0
+10021.1,4,1,1,1,0,Credit Card,0,Travel,1
+9390.9,8,1,0,1,0,Credit Card,1,Travel,1
+2197.58,21,1,1,1,0,Debit Card,0,Travel,1
+1666.84,6,1,1,0,0,Credit Card,0,Digital Goods,1
+12563.86,24,0,0,1,0,UPI,1,Electronics,1
+2019.47,4,1,1,1,0,UPI,0,Travel,1
+2972.49,18,1,0,1,0,UPI,0,Fashion,0
+21194.25,18,1,1,1,0,Credit Card,0,Fashion,1
+4219.11,1,1,0,1,0,UPI,0,Electronics,1
+2132.6,13,0,0,1,1,Debit Card,0,Food,0
+484.98,9,1,1,1,0,Credit Card,0,Fashion,0
+3626.14,16,0,0,0,0,UPI,0,Travel,0
+3209.68,4,1,1,1,0,Credit Card,0,Electronics,0
+1875.59,7,1,0,1,0,Credit Card,0,Digital Goods,1
+8831.37,16,0,1,1,1,UPI,0,Fashion,0
+962.09,24,1,1,1,0,Credit Card,0,Digital Goods,1
+718.84,24,0,1,1,0,Credit Card,0,Digital Goods,1
+1591.37,6,1,1,0,1,Credit Card,0,Electronics,1
+3314.65,19,0,0,1,0,Debit Card,0,Food,1
+757.92,18,0,1,1,2,Debit Card,0,Electronics,1
+1045.08,17,0,0,1,1,Credit Card,0,Food,0
+1454.48,27,0,1,1,0,Debit Card,0,Food,0
+3194.97,18,1,1,0,0,Credit Card,0,Food,0
+1620.27,22,0,1,1,0,Credit Card,0,Digital Goods,0
+8664.37,27,1,1,1,0,UPI,0,Electronics,0
+355.04,26,1,1,1,0,Debit Card,1,Electronics,1
+4822.82,5,1,0,1,0,Credit Card,1,Fashion,1
+1768.35,25,1,1,1,0,Debit Card,0,Digital Goods,1
+5083.1,26,1,0,1,1,UPI,1,Electronics,1
+23016.18,6,1,1,0,1,Debit Card,0,Electronics,1
+2972.95,14,1,1,0,0,Credit Card,0,Fashion,1
+3880.11,1,0,1,1,0,Credit Card,0,Fashion,1
+7350.22,10,1,1,1,1,Debit Card,0,Fashion,0
+845.32,13,1,1,0,1,Credit Card,1,Electronics,1
+6178.79,15,0,1,1,1,Credit Card,1,Food,1
+7207.47,21,0,1,1,0,Credit Card,0,Food,0
+2784.87,17,1,1,0,0,Credit Card,0,Electronics,1
+6135.14,5,1,1,1,0,UPI,0,Fashion,1
+3631.61,5,1,1,1,0,UPI,0,Travel,1
+1489.13,11,0,1,0,0,Debit Card,0,Electronics,1
+858.06,21,1,1,0,0,Debit Card,0,Digital Goods,1
+8522.48,9,0,0,1,0,Credit Card,0,Fashion,1
+18960.96,10,0,1,1,0,UPI,0,Fashion,1
+1456.36,4,0,0,1,0,UPI,0,Electronics,1
+4623.22,11,1,0,1,1,Credit Card,0,Food,1
+950.81,1,0,1,0,0,Credit Card,0,Travel,0
+2001.33,18,0,1,1,1,UPI,1,Fashion,1
+1952.79,27,1,1,1,0,Credit Card,0,Digital Goods,0
+1026.6,21,1,1,1,0,Credit Card,0,Digital Goods,1
+2979.79,28,0,1,1,0,Debit Card,0,Food,1
+8661.42,2,0,1,1,0,Credit Card,1,Fashion,1
+5631.14,27,0,1,0,0,Credit Card,0,Electronics,1
+1919.76,22,1,1,0,1,Credit Card,0,Electronics,1
+13362.98,28,1,1,0,0,Debit Card,0,Digital Goods,1
+4014.75,10,0,1,0,0,Debit Card,1,Digital Goods,1
+19575.45,25,1,1,1,0,Debit Card,0,Travel,1
+875.62,24,1,0,1,0,Debit Card,0,Food,1
+50000.0,1,1,0,1,2,Credit Card,1,Electronics,1
+2716.02,21,1,1,1,1,Credit Card,0,Electronics,1
+993.87,10,1,0,1,0,UPI,1,Food,1
+1116.68,15,1,1,0,0,Debit Card,1,Food,1
+8252.5,8,1,0,1,1,Debit Card,1,Travel,1
+8031.51,3,0,0,1,1,Credit Card,0,Digital Goods,1
+7324.43,27,1,1,0,1,Debit Card,0,Travel,1
+5977.1,14,0,1,1,0,UPI,0,Digital Goods,1
+1053.76,15,0,1,0,0,Credit Card,1,Food,0
+2819.14,6,1,1,1,0,Debit Card,0,Electronics,1
+322.42,19,1,1,1,1,Credit Card,0,Digital Goods,0
+1359.55,26,0,0,1,0,Debit Card,0,Travel,0
+6378.09,11,0,1,1,0,UPI,0,Digital Goods,1
+499.24,9,0,1,0,1,UPI,1,Electronics,1
+35197.14,27,0,0,1,1,Credit Card,0,Electronics,0
+11637.53,17,0,0,1,0,UPI,1,Digital Goods,1
+1044.5,29,1,0,1,0,UPI,0,Fashion,0
+6791.94,2,1,1,1,2,Credit Card,0,Electronics,1
+5744.67,18,0,1,1,1,Credit Card,0,Food,1
+2871.22,18,1,1,1,0,Credit Card,1,Electronics,1
+5954.31,9,1,1,1,0,Debit Card,0,Fashion,1
+2530.66,25,1,1,1,0,Credit Card,1,Fashion,1
+3245.82,8,0,1,1,0,UPI,0,Travel,1
+5742.32,7,0,1,1,1,UPI,1,Fashion,1
+5378.44,8,1,0,1,0,Debit Card,1,Fashion,1
+4684.45,16,0,1,0,0,UPI,0,Travel,0
+4784.48,28,1,1,1,0,UPI,1,Fashion,1
+8942.13,22,1,1,0,0,UPI,0,Travel,1
+7507.58,7,1,1,0,2,Debit Card,0,Travel,1
+1047.55,14,1,0,0,0,Debit Card,1,Electronics,0
+1613.63,26,0,1,0,0,UPI,1,Travel,0
+14891.76,24,0,1,0,0,Credit Card,1,Travel,0
+16509.34,5,0,1,1,0,Credit Card,0,Fashion,1
+6051.32,7,0,0,0,0,Credit Card,0,Travel,1
+2639.63,18,1,1,1,0,Debit Card,0,Fashion,1
+7908.22,14,0,1,1,1,UPI,0,Fashion,1
+6891.49,16,0,0,1,0,Debit Card,0,Fashion,1
+742.78,3,1,0,1,0,Credit Card,0,Fashion,1
+3738.97,16,1,1,1,0,Debit Card,1,Travel,1
+861.6,26,0,1,1,0,Debit Card,0,Travel,1
+2208.5,19,0,0,1,0,UPI,0,Travel,1
+3612.25,1,1,1,1,0,Debit Card,0,Fashion,1
+19553.02,26,1,1,0,0,UPI,1,Electronics,0
+421.59,5,0,1,1,0,UPI,1,Travel,1
+2450.66,16,0,1,0,1,UPI,0,Digital Goods,1
+6925.78,10,0,1,1,0,Debit Card,1,Electronics,1
+6821.85,19,0,0,1,0,Credit Card,0,Fashion,1
+8196.9,3,1,0,1,0,Credit Card,0,Food,1
+1295.76,15,1,1,0,0,Credit Card,0,Fashion,0
+3075.72,12,1,1,1,1,UPI,0,Electronics,0
+2203.84,26,0,1,1,0,UPI,1,Electronics,0
+12975.09,12,1,0,0,0,UPI,0,Electronics,0
+3049.48,14,0,1,1,0,Credit Card,0,Travel,1
+3563.79,12,0,0,1,1,UPI,1,Fashion,0
+4236.81,25,1,0,1,0,Credit Card,0,Fashion,1
+944.89,22,1,0,0,1,Credit Card,0,Electronics,0
+5872.98,20,0,0,0,0,Debit Card,0,Food,0
+1158.79,4,0,1,1,0,UPI,1,Electronics,1
+4203.51,13,0,1,1,0,UPI,0,Food,1
+1694.33,4,1,1,0,0,Credit Card,1,Food,1
+11600.49,14,1,1,0,0,UPI,0,Electronics,0
+3635.19,28,0,1,1,0,UPI,0,Travel,1
+24136.09,2,0,1,0,0,UPI,0,Digital Goods,1
+374.85,17,0,1,1,0,Debit Card,0,Travel,1
+13805.98,10,1,0,1,0,UPI,0,Digital Goods,1
+8270.99,1,0,1,1,0,Debit Card,1,Fashion,1
+4689.36,13,1,1,1,0,Credit Card,0,Fashion,1
+31816.19,5,0,1,1,0,Credit Card,1,Fashion,1
+839.21,18,1,1,1,0,Credit Card,1,Food,1
+4329.04,5,1,1,1,0,Debit Card,1,Fashion,1
+12182.23,1,0,1,0,0,Credit Card,0,Electronics,1
+6423.48,12,1,1,1,0,UPI,0,Electronics,1
+2397.03,23,1,1,1,1,Credit Card,0,Electronics,1
+6690.67,25,0,1,1,0,UPI,0,Fashion,0
+2310.68,10,1,1,1,0,UPI,0,Fashion,0
+2489.34,12,0,0,1,0,Credit Card,0,Electronics,0
+1805.33,3,0,1,1,2,Debit Card,0,Fashion,0
+10044.48,7,1,1,1,0,Credit Card,1,Electronics,1
+4782.22,16,1,1,0,0,UPI,0,Fashion,1
+43345.37,4,0,0,1,0,UPI,0,Electronics,1
+8163.8,5,1,1,1,0,Debit Card,0,Fashion,1
+794.02,9,0,1,0,0,Credit Card,1,Travel,0
+7809.39,21,1,1,1,0,Credit Card,0,Digital Goods,1
+1178.17,2,0,1,1,0,Debit Card,1,Food,1
+2655.39,7,1,1,1,0,UPI,0,Digital Goods,1
+4030.53,5,0,1,0,0,Debit Card,0,Food,1
+1176.31,21,1,1,1,0,Debit Card,1,Digital Goods,1
+2111.41,10,1,1,1,0,Credit Card,1,Fashion,1
+1784.11,29,1,1,0,0,Debit Card,0,Digital Goods,0
+4029.64,18,1,1,0,0,Credit Card,1,Travel,1
+3251.92,15,0,1,1,1,Credit Card,1,Food,0
+3153.73,25,0,1,0,0,Credit Card,1,Electronics,1
+19280.31,1,1,1,1,1,Debit Card,0,Travel,1
+6020.77,28,1,1,1,0,UPI,0,Fashion,1
+5396.49,5,0,0,1,3,Credit Card,0,Electronics,0
+10486.22,25,1,1,1,1,Credit Card,0,Travel,1
+22534.42,10,1,0,0,1,Credit Card,1,Fashion,0
+14168.32,23,0,1,1,0,Debit Card,1,Fashion,0
+1218.62,16,1,0,0,0,Credit Card,0,Food,1
+5935.15,13,1,1,1,0,UPI,1,Digital Goods,1
+7588.24,22,1,1,1,0,Credit Card,0,Food,1
+9174.76,6,1,0,1,1,UPI,0,Digital Goods,1
+3039.41,16,1,1,1,1,Debit Card,0,Digital Goods,1
+3761.26,22,1,1,0,1,Credit Card,1,Electronics,1
+1442.84,23,1,1,1,0,UPI,0,Travel,1
+2421.08,16,1,1,1,0,Credit Card,1,Travel,1
+1090.19,6,1,1,1,0,UPI,0,Digital Goods,1
+12513.02,11,0,1,0,1,Credit Card,1,Food,1
+2081.92,8,1,0,1,0,Credit Card,0,Food,1
+1377.24,27,1,0,1,1,Debit Card,1,Travel,0
+4702.53,8,1,0,0,0,Credit Card,0,Food,1
+3894.42,19,0,1,1,0,UPI,0,Travel,1
+1762.1,11,1,0,1,1,Debit Card,0,Travel,1
+5100.84,9,0,0,1,1,UPI,0,Fashion,0
+1871.19,17,1,0,0,0,Credit Card,0,Fashion,0
+5828.34,16,1,1,0,0,Credit Card,1,Food,0
+3406.74,8,0,1,1,0,UPI,0,Electronics,0
+4349.94,12,0,1,1,1,Debit Card,0,Digital Goods,1
+2390.98,25,1,0,1,2,Debit Card,0,Fashion,1
+1791.97,24,1,1,0,0,Credit Card,0,Food,1
+4516.92,2,0,1,1,0,UPI,0,Digital Goods,1
+727.31,2,0,1,1,0,Credit Card,0,Fashion,1
+13978.26,7,0,1,1,0,Debit Card,0,Electronics,0
+2219.03,16,1,1,1,1,Credit Card,1,Travel,0
+27922.72,20,0,0,1,0,Credit Card,0,Digital Goods,0
+6852.13,1,0,1,1,0,UPI,0,Electronics,1
+3189.25,3,0,0,0,1,Credit Card,0,Electronics,0
+1915.29,7,1,1,1,0,UPI,1,Fashion,1
+5882.45,17,0,1,1,0,Credit Card,0,Travel,1
+5559.67,22,1,1,0,0,UPI,0,Food,1
+5386.5,26,0,0,0,1,Credit Card,0,Food,0
+8104.12,25,1,0,1,0,Credit Card,0,Food,1
+3949.23,13,0,1,1,0,Credit Card,0,Food,0
+10998.97,4,1,1,1,1,UPI,0,Food,1
+1625.17,11,0,1,0,0,UPI,0,Digital Goods,0
+2855.72,27,0,1,0,0,Credit Card,1,Travel,1
+6503.1,20,0,1,1,0,Credit Card,0,Electronics,1
+1604.37,7,1,1,0,1,UPI,0,Travel,1
+3655.24,26,0,0,1,0,UPI,0,Fashion,0
+16244.52,3,1,1,1,0,Credit Card,0,Digital Goods,1
+3890.23,1,0,1,1,0,Credit Card,1,Fashion,1
+2188.56,10,1,1,1,1,Credit Card,0,Food,1
+10828.05,9,0,1,1,0,Debit Card,0,Travel,0
+1123.88,2,0,0,1,1,Credit Card,0,Food,0
+2512.26,1,1,1,1,1,Credit Card,1,Fashion,1
+10161.61,4,1,1,0,0,UPI,0,Food,1
+1620.45,5,1,1,1,0,Credit Card,0,Fashion,1
+4529.21,26,0,1,1,0,Debit Card,0,Fashion,0
+3263.88,15,0,1,1,0,Debit Card,0,Food,1
+16778.94,29,0,0,0,2,UPI,0,Fashion,0
+844.41,20,0,0,1,0,Credit Card,1,Electronics,0
+2036.64,6,0,1,0,1,Credit Card,1,Digital Goods,1
+2528.98,8,1,1,0,0,UPI,0,Fashion,0
+5086.22,22,0,0,1,0,Debit Card,0,Fashion,0
+6078.17,28,1,1,1,0,Credit Card,0,Food,1
+5345.18,21,1,1,1,0,UPI,1,Electronics,1
+14467.45,17,1,1,0,1,Credit Card,1,Travel,0
+6853.35,12,1,0,1,0,UPI,0,Fashion,0
+972.25,7,1,1,0,0,Credit Card,1,Electronics,1
+825.05,25,1,1,0,1,Credit Card,0,Food,1
+2044.76,25,0,0,1,0,UPI,1,Digital Goods,0
+2069.15,24,1,1,1,1,UPI,0,Digital Goods,1
+2261.41,16,0,1,1,0,Debit Card,1,Electronics,0
+9988.81,9,1,1,1,1,UPI,0,Digital Goods,1
+1861.81,17,0,1,1,0,UPI,0,Electronics,0
+10610.69,10,1,0,1,2,UPI,0,Electronics,0
+11039.29,5,0,0,1,0,Credit Card,0,Fashion,1
+3610.84,22,0,0,1,1,Debit Card,0,Electronics,1
+2078.3,27,0,1,1,0,Credit Card,1,Travel,1
+12690.25,5,0,0,0,0,Credit Card,0,Travel,0
+1502.39,27,0,1,0,0,Credit Card,0,Fashion,1
+5650.19,2,0,1,1,0,Debit Card,1,Electronics,1
+4596.62,27,0,0,0,0,UPI,0,Fashion,0
+12810.43,22,1,1,1,0,Credit Card,0,Digital Goods,1
+5010.91,16,0,0,1,0,Debit Card,0,Digital Goods,1
+3574.82,10,0,0,1,0,Credit Card,0,Food,0
+10053.62,24,1,1,0,0,UPI,0,Digital Goods,1
+2393.3,27,0,1,1,1,UPI,0,Fashion,0
+6142.09,5,1,0,1,1,Credit Card,0,Fashion,0
+3996.82,13,0,1,1,0,Credit Card,1,Digital Goods,1
+3624.17,5,0,1,1,0,Credit Card,1,Electronics,1
+794.79,17,0,1,1,1,Credit Card,1,Digital Goods,0
+3485.43,20,0,1,0,0,Debit Card,1,Fashion,0
+1273.69,12,1,0,1,0,Credit Card,1,Electronics,0
+5946.26,23,0,1,1,1,Credit Card,0,Travel,1
+37431.58,13,1,1,1,0,Credit Card,1,Digital Goods,1
+2791.8,28,1,1,1,2,UPI,0,Fashion,1
+8751.09,9,0,1,0,0,Credit Card,0,Food,0
+9597.14,12,1,1,1,0,Credit Card,0,Food,1
+1106.04,15,1,1,1,0,Credit Card,1,Travel,1
+7105.6,3,1,1,0,0,UPI,0,Electronics,0
+2553.77,5,1,0,1,1,Credit Card,0,Fashion,1
+2254.5,12,1,1,0,0,Credit Card,1,Digital Goods,0
+7950.35,11,1,1,1,0,Credit Card,0,Fashion,1
+2007.41,7,0,1,1,0,Debit Card,0,Fashion,1
+2104.76,24,0,0,1,0,UPI,0,Travel,1
+7469.04,20,1,0,0,0,Credit Card,0,Fashion,0
+12712.64,22,1,1,1,1,UPI,1,Travel,1
+3740.78,19,1,1,1,1,UPI,0,Electronics,1
+6821.18,27,1,1,1,0,Debit Card,0,Travel,1
+847.29,1,0,1,1,0,UPI,0,Food,0
+3162.13,26,1,1,1,1,UPI,0,Fashion,0
+5472.23,20,1,1,0,0,UPI,0,Travel,1
+1506.39,13,1,1,1,2,UPI,0,Fashion,1
+6667.91,22,1,0,0,1,Credit Card,0,Food,1
+4640.82,24,0,1,1,0,Credit Card,0,Digital Goods,1
+4658.28,20,1,1,1,0,Credit Card,1,Electronics,1
+11447.61,19,1,1,0,0,Debit Card,0,Digital Goods,1
+12407.11,29,1,1,0,0,UPI,1,Fashion,1
+1038.13,16,1,0,0,0,Debit Card,1,Fashion,0
+1817.59,14,0,1,1,0,Debit Card,0,Fashion,0
+5996.1,1,1,1,1,1,Debit Card,0,Digital Goods,1
+2590.07,24,0,1,1,0,UPI,0,Travel,0
+25607.93,7,1,1,1,0,Credit Card,0,Travel,1
+10576.37,12,1,0,1,0,Debit Card,0,Digital Goods,1
+1540.5,21,0,1,0,0,Debit Card,0,Fashion,0
+1643.36,23,0,1,1,0,UPI,0,Electronics,1
+987.4,4,0,1,1,0,UPI,0,Fashion,0
+5074.22,23,0,0,1,0,Debit Card,0,Food,0
+1910.74,5,0,1,1,0,Debit Card,0,Food,0
+1780.52,22,0,1,1,0,UPI,0,Fashion,1
+987.5,7,1,1,1,0,Credit Card,0,Travel,1
+8520.52,11,1,1,0,0,Debit Card,1,Food,1
+1658.32,17,0,0,1,0,Credit Card,0,Electronics,0
+1414.72,9,0,1,1,0,Debit Card,1,Travel,1
+530.62,25,1,1,0,0,Credit Card,0,Travel,1
+5246.28,11,0,1,0,0,Credit Card,0,Travel,1
+4407.02,18,1,1,1,0,Debit Card,0,Food,1
+7271.76,2,1,1,0,0,Credit Card,0,Electronics,1
+14706.23,13,1,0,1,0,Debit Card,1,Digital Goods,1
+4305.51,19,0,1,1,1,UPI,0,Travel,1
+2480.39,14,1,1,1,0,Credit Card,1,Fashion,0
+703.97,9,1,1,1,0,UPI,0,Electronics,1
+3897.83,2,1,1,1,0,Debit Card,0,Digital Goods,1
+4979.33,22,1,0,1,0,Debit Card,0,Digital Goods,1
+4525.77,17,0,1,1,1,UPI,0,Digital Goods,1
+499.29,21,1,1,1,0,UPI,0,Fashion,1
+12039.83,3,1,0,1,0,Credit Card,1,Electronics,1
+6513.83,1,0,1,0,0,UPI,0,Electronics,1
+2369.96,8,1,1,0,0,Debit Card,0,Food,1
+2634.29,24,1,1,1,0,Credit Card,1,Fashion,1
+513.0,20,0,0,0,1,Credit Card,0,Food,0
+4835.02,28,1,1,0,0,Debit Card,1,Travel,1
+2482.51,22,1,1,0,0,Credit Card,0,Fashion,1
+1130.15,9,0,0,0,0,Credit Card,0,Food,0
+25203.81,24,1,1,0,0,UPI,0,Travel,1
+16405.83,24,1,1,1,0,Credit Card,0,Travel,1
+7218.44,12,0,1,1,0,UPI,1,Fashion,1
+3426.9,11,1,1,1,1,UPI,0,Travel,1
+1011.55,21,0,1,1,1,UPI,0,Electronics,0
+3433.44,25,0,1,0,0,Credit Card,1,Travel,0
+5599.22,22,0,1,0,1,Credit Card,0,Fashion,1
+3140.69,11,0,1,0,0,UPI,0,Digital Goods,1
+3378.73,9,0,1,0,0,Credit Card,0,Digital Goods,1
+4218.42,19,1,0,1,0,UPI,0,Fashion,0
+1115.3,29,1,1,1,0,Debit Card,0,Electronics,1
+7951.92,7,0,1,1,0,Debit Card,1,Electronics,1
+9581.73,18,0,1,0,0,UPI,1,Electronics,1
+2276.37,6,0,1,1,0,Credit Card,0,Digital Goods,0
+1747.89,18,0,1,1,1,Credit Card,0,Electronics,1
+29183.22,15,1,0,0,1,Credit Card,0,Travel,1
+10957.44,7,0,1,1,0,UPI,0,Digital Goods,1
+343.97,25,1,1,1,1,UPI,1,Food,0
+3160.2,18,0,1,1,0,Credit Card,1,Digital Goods,1
+1262.1,11,1,1,0,0,Credit Card,1,Digital Goods,1
+1406.35,15,0,1,1,0,Credit Card,0,Travel,1
+1755.76,29,1,1,1,0,UPI,0,Fashion,1
+3653.47,22,1,1,0,0,UPI,0,Fashion,1
+3067.49,5,0,1,0,0,Debit Card,1,Electronics,1
+958.83,28,0,0,1,0,Credit Card,0,Electronics,0
+1181.16,25,1,1,1,0,Credit Card,0,Digital Goods,1
+446.01,17,1,1,0,0,Credit Card,0,Food,1
+3197.59,2,1,1,1,1,Debit Card,0,Digital Goods,0
+4577.54,6,1,1,1,0,Debit Card,0,Digital Goods,1
+8280.48,3,0,1,0,1,Credit Card,1,Digital Goods,1
+9336.21,7,1,1,1,0,Credit Card,0,Electronics,1
+3862.22,2,0,0,1,1,Credit Card,0,Travel,0
+2337.09,20,0,0,1,0,Debit Card,0,Fashion,1
+29754.96,12,1,1,1,0,UPI,0,Fashion,1
+1385.64,2,1,1,1,0,Credit Card,1,Fashion,1
+901.19,14,1,1,1,0,Debit Card,1,Food,0
+2205.8,8,0,1,0,0,Debit Card,0,Travel,1
+4251.73,16,0,1,1,0,Credit Card,0,Fashion,0
+13501.71,2,0,0,1,0,Credit Card,0,Travel,1
+2180.99,2,0,0,1,1,Credit Card,0,Fashion,1
+692.21,12,0,1,0,0,UPI,0,Food,1
+7286.19,24,1,1,1,0,UPI,1,Digital Goods,1
+2227.84,18,1,0,1,0,UPI,0,Digital Goods,1
+1201.7,13,1,1,1,0,Debit Card,1,Food,1
+1404.97,6,1,1,1,1,Credit Card,0,Electronics,1
+3989.7,27,0,1,1,1,UPI,0,Digital Goods,0
+597.57,27,1,1,0,0,Credit Card,0,Travel,1
+15290.49,29,0,1,1,0,Credit Card,1,Food,1
+2954.02,12,0,1,1,0,UPI,1,Electronics,1
+3657.66,26,1,1,1,0,Debit Card,1,Digital Goods,0
+9966.07,11,1,1,1,1,Debit Card,1,Food,1
+1652.19,10,1,1,1,1,Credit Card,0,Food,0
+3711.16,10,0,1,0,2,Credit Card,0,Electronics,0
+3202.86,2,1,1,0,0,UPI,0,Electronics,1
+5639.26,13,1,0,1,0,UPI,0,Food,1
+40250.18,4,0,1,0,1,UPI,1,Digital Goods,0
+1163.0,2,1,0,1,0,UPI,0,Electronics,1
+3255.66,22,0,1,0,0,Credit Card,0,Food,1
+28946.48,28,1,1,1,0,Credit Card,0,Fashion,1
+1418.18,18,1,1,0,0,UPI,0,Fashion,1
+17543.29,9,1,1,1,0,Credit Card,1,Digital Goods,1
+3781.12,27,1,0,1,0,Debit Card,0,Travel,1
+9786.27,24,0,1,0,0,Credit Card,0,Food,0
+6125.55,11,0,1,1,0,Credit Card,0,Fashion,0
+4805.56,1,1,1,0,0,Credit Card,1,Fashion,0
+1433.8,14,1,1,1,2,Credit Card,1,Fashion,0
+3014.92,9,0,1,1,0,Credit Card,1,Electronics,1
+6934.56,5,0,1,1,0,UPI,0,Food,1
+2378.36,17,1,1,0,0,Debit Card,1,Travel,1
+1180.69,28,0,1,1,0,Credit Card,0,Electronics,1
+1310.52,9,1,1,1,0,Debit Card,0,Fashion,1
+14384.65,28,0,0,1,0,Credit Card,1,Travel,1
+17259.2,24,1,0,1,0,Debit Card,0,Electronics,1
+1704.62,24,1,1,1,0,Credit Card,0,Travel,1
+3423.18,3,1,1,0,1,UPI,0,Food,1
+12109.71,17,0,1,1,0,Credit Card,0,Food,1
+4687.97,5,1,1,0,0,UPI,0,Food,1
+3738.82,3,1,1,1,0,Credit Card,0,Food,1
+6487.46,14,1,0,0,0,Credit Card,0,Fashion,1
+1154.87,1,1,1,0,0,Credit Card,0,Electronics,1
+1764.45,16,1,1,0,0,Debit Card,0,Food,1
+7521.7,1,1,0,1,1,UPI,1,Fashion,1
+4280.42,18,1,0,1,0,UPI,0,Digital Goods,1
+5556.92,4,0,0,1,0,Debit Card,0,Food,0
+3835.26,4,0,1,0,1,Credit Card,1,Electronics,0
+962.7,13,1,1,1,0,Credit Card,0,Food,1
+5347.4,14,1,1,1,0,UPI,0,Electronics,1
+12826.8,13,1,1,1,0,Debit Card,1,Electronics,1
+5867.09,17,0,1,1,0,Credit Card,0,Electronics,0
+7286.41,26,0,1,1,0,Credit Card,0,Electronics,1
+1370.04,28,1,1,0,1,Credit Card,0,Digital Goods,1
+2727.6,19,0,1,1,1,Credit Card,1,Food,1
+2223.18,4,1,0,1,0,Credit Card,0,Fashion,1
+2112.19,13,1,1,1,0,UPI,0,Travel,1
+1884.79,3,1,1,1,1,UPI,1,Travel,1
+6333.92,4,1,1,1,0,Credit Card,1,Fashion,1
+6087.85,13,1,0,1,1,Credit Card,1,Fashion,0
+8157.02,1,0,1,1,1,Credit Card,1,Fashion,0
+21246.7,17,1,1,1,0,Debit Card,1,Fashion,1
+4172.58,29,1,1,1,0,Debit Card,0,Fashion,1
+5595.89,1,1,1,1,0,Credit Card,0,Food,0
+4197.61,14,1,1,1,0,Credit Card,0,Fashion,1
+698.01,6,1,1,1,0,Credit Card,1,Fashion,1
+1215.01,14,1,1,0,1,Credit Card,1,Travel,1
+5603.93,17,1,0,1,0,UPI,0,Electronics,1
+2260.58,29,1,1,0,1,UPI,0,Fashion,0
+3332.24,6,0,0,1,0,Debit Card,1,Electronics,0
+843.83,27,1,1,0,0,UPI,0,Fashion,1
+4675.0,5,0,1,1,1,Credit Card,1,Food,0
+2606.18,25,0,0,0,0,Debit Card,1,Food,0
+4225.65,9,1,0,1,0,UPI,0,Digital Goods,1
+4248.82,3,1,1,0,1,UPI,0,Travel,1
+690.25,1,1,1,1,0,UPI,0,Food,1
+10553.57,21,0,1,1,0,Credit Card,1,Fashion,1
+988.29,16,0,1,1,0,Credit Card,0,Electronics,1
+2599.15,9,0,1,1,0,UPI,1,Digital Goods,1
+2207.8,26,1,1,1,1,Credit Card,0,Travel,0
+9844.36,11,0,0,0,0,Credit Card,1,Travel,0
+3907.07,20,0,0,1,0,UPI,0,Fashion,1
+9178.72,10,0,1,1,0,Credit Card,1,Electronics,1
+4301.26,21,0,1,0,0,UPI,1,Digital Goods,0
+3425.08,1,1,0,0,0,Credit Card,0,Digital Goods,1
+1566.49,22,1,1,1,0,UPI,0,Digital Goods,1
+2190.51,17,0,0,1,0,Credit Card,0,Travel,0
+3642.2,24,0,1,1,1,Debit Card,1,Food,1
+4538.7,23,0,0,1,0,Credit Card,0,Electronics,0
+1845.16,17,0,1,1,0,UPI,0,Food,1
+14346.45,14,1,1,1,0,Debit Card,1,Digital Goods,1
+4745.9,29,1,0,0,0,Debit Card,1,Digital Goods,1
+1157.73,12,0,1,0,0,Debit Card,0,Digital Goods,1
+15533.83,16,1,1,1,0,Credit Card,0,Travel,1
+651.01,24,1,1,1,0,Debit Card,1,Food,1
+5210.3,8,0,1,1,0,Debit Card,0,Travel,0
+2037.31,9,0,0,1,0,UPI,0,Fashion,0
+16934.94,15,0,1,1,1,UPI,0,Food,0
+8095.29,22,1,1,1,1,Debit Card,1,Fashion,1
+1094.55,6,0,1,1,0,UPI,0,Food,0
+9598.27,11,1,0,1,1,Credit Card,0,Fashion,1
+466.68,14,0,1,1,0,UPI,0,Fashion,1
+8093.99,7,1,0,1,0,Credit Card,1,Fashion,1
+3355.51,21,1,1,1,0,UPI,1,Food,1
+1413.15,17,0,0,1,0,Credit Card,0,Fashion,1
+9372.93,19,1,0,1,0,UPI,0,Electronics,0
+7629.82,28,1,1,1,0,UPI,1,Fashion,1
+4262.97,26,0,1,1,1,Debit Card,0,Travel,1
+4679.33,17,0,1,1,1,Credit Card,0,Electronics,0
+5261.61,29,1,1,0,0,Debit Card,1,Food,1
+2466.68,29,1,1,1,0,Credit Card,0,Food,0
+6155.81,27,1,1,0,0,Debit Card,0,Digital Goods,1
+546.03,15,0,0,1,0,Credit Card,0,Electronics,1
+200.0,6,1,1,1,1,UPI,1,Digital Goods,1
+5586.78,11,1,0,1,0,Credit Card,0,Food,1
+5180.82,21,1,1,1,1,Debit Card,0,Digital Goods,0
+1800.7,12,1,0,1,0,Credit Card,0,Electronics,1
+1191.87,28,0,1,1,0,Debit Card,0,Electronics,1
+13137.44,19,1,1,1,0,UPI,1,Food,1
+2098.34,2,0,1,1,0,Debit Card,0,Digital Goods,1
+1916.09,4,1,1,1,0,Credit Card,1,Travel,1
+1330.73,8,0,1,1,0,Credit Card,1,Food,1
+7785.15,2,0,1,1,0,Credit Card,0,Electronics,0
+383.84,18,0,0,1,0,UPI,0,Food,0
+2898.94,5,0,1,1,0,Debit Card,0,Fashion,1
+1712.63,8,1,1,1,0,Credit Card,0,Digital Goods,0
+3031.37,25,0,0,1,0,UPI,0,Travel,0
+6830.44,23,1,1,1,0,Credit Card,0,Digital Goods,1
+2151.56,24,1,1,1,0,UPI,0,Fashion,1
+2655.98,19,0,1,0,0,Credit Card,1,Electronics,1
+539.78,14,1,1,1,1,Credit Card,1,Digital Goods,1
+2023.13,27,1,1,1,0,UPI,0,Electronics,1
+1217.04,16,1,1,1,0,Credit Card,0,Digital Goods,0
+4409.12,23,1,1,0,0,Debit Card,0,Digital Goods,1
+2764.49,18,1,0,1,0,Credit Card,1,Fashion,0
+2251.66,10,1,1,0,0,Debit Card,0,Fashion,1
+4091.44,14,0,1,0,0,Credit Card,0,Travel,1
+1422.54,7,0,1,0,1,Debit Card,0,Fashion,0
+1124.17,6,0,1,1,1,Debit Card,0,Electronics,0
+262.08,4,1,1,1,0,Debit Card,0,Travel,1
+3240.72,22,1,0,1,0,UPI,1,Fashion,0
+3470.42,25,1,0,0,0,Credit Card,1,Fashion,1
+3284.76,24,0,0,1,0,UPI,0,Food,0
+1939.13,26,0,1,1,0,Credit Card,0,Travel,0
+9858.14,26,1,1,1,0,Credit Card,0,Travel,1
+1641.76,6,0,0,1,0,Credit Card,0,Electronics,0
+20646.26,1,1,1,1,0,Credit Card,0,Electronics,1
+2597.01,10,1,1,1,0,Debit Card,1,Electronics,1
+1519.34,28,0,1,1,1,Debit Card,0,Fashion,0
+2327.52,10,1,1,1,0,Debit Card,0,Digital Goods,1
+3202.6,4,1,1,1,1,UPI,1,Fashion,1
+5037.89,24,1,1,0,0,Debit Card,1,Electronics,1
+22464.96,21,0,1,1,0,UPI,0,Food,1
+3954.01,27,0,1,0,0,UPI,0,Fashion,0
+7018.41,29,1,1,1,0,UPI,1,Electronics,1
+8627.83,12,1,1,0,0,Credit Card,1,Electronics,0
+5339.67,26,1,1,1,0,Credit Card,0,Electronics,1
+23463.42,17,0,1,1,0,Debit Card,0,Digital Goods,1
+2465.6,16,1,1,1,0,UPI,1,Digital Goods,1
+1844.48,21,1,0,1,0,UPI,1,Food,1
+1019.03,2,0,1,1,1,UPI,0,Travel,1
+2621.61,19,1,1,1,0,Credit Card,1,Electronics,1
+420.63,15,0,0,1,1,Credit Card,0,Digital Goods,0
+6410.99,27,0,1,1,0,Debit Card,0,Digital Goods,1
+1712.97,11,0,1,1,0,Debit Card,0,Digital Goods,1
+6569.5,6,1,0,1,0,UPI,1,Digital Goods,0
+4919.88,5,0,1,1,0,Credit Card,1,Digital Goods,1
+1036.59,21,0,1,1,1,Credit Card,1,Fashion,0
+28099.28,11,0,0,1,3,Debit Card,0,Food,0
+1596.75,21,1,1,1,0,UPI,0,Food,1
+1474.68,4,1,1,1,0,Debit Card,1,Digital Goods,1
+2280.89,1,1,0,0,0,Debit Card,1,Fashion,0
+5538.73,4,1,1,0,0,Debit Card,1,Electronics,0
+1174.77,1,0,0,1,0,Debit Card,1,Digital Goods,0
+7702.12,13,1,0,1,0,Credit Card,1,Electronics,0
+3955.82,17,1,0,1,1,Credit Card,0,Food,0
+2869.26,28,1,1,1,0,Credit Card,0,Food,1
+1209.63,4,1,0,1,0,UPI,0,Electronics,1
+3816.13,2,1,1,1,0,UPI,1,Food,1
+2631.28,3,0,1,1,0,Credit Card,0,Food,0
+452.99,8,0,1,1,0,Credit Card,0,Digital Goods,0
+4692.83,7,0,0,1,1,Credit Card,0,Travel,1
+1346.87,27,0,1,1,0,UPI,1,Digital Goods,1
+2499.47,27,1,1,1,0,UPI,0,Food,1
+1422.92,9,0,1,0,0,Debit Card,1,Digital Goods,0
+2408.55,26,0,1,1,0,Debit Card,0,Electronics,1
+2160.08,19,0,0,1,0,Credit Card,1,Electronics,1
+2336.51,25,1,0,0,0,UPI,0,Fashion,1
+2166.7,24,1,1,1,1,UPI,1,Electronics,1
+1731.43,3,1,1,1,1,Debit Card,0,Fashion,1
+9338.24,2,1,1,1,0,UPI,0,Food,1
+5302.06,17,1,1,0,0,Debit Card,0,Travel,0
+5785.81,7,1,1,1,0,Credit Card,1,Fashion,1
+12576.1,2,0,0,1,0,Credit Card,1,Electronics,1
+1971.28,21,1,1,1,0,UPI,0,Food,1
+5215.09,15,0,1,1,1,Credit Card,0,Fashion,0
+1964.23,5,0,1,1,0,Credit Card,0,Digital Goods,1
+1442.63,29,1,1,1,0,UPI,1,Electronics,1
+12484.39,11,1,1,1,0,Credit Card,0,Electronics,1
+1425.78,21,1,1,1,0,Credit Card,0,Electronics,1
+40023.52,29,1,1,1,0,UPI,1,Digital Goods,1
+36313.24,1,0,0,1,0,Debit Card,0,Fashion,0
+388.19,3,0,0,0,0,Credit Card,1,Fashion,0
+8444.37,12,0,1,0,0,Credit Card,1,Digital Goods,0
+1452.53,26,1,1,1,0,UPI,0,Digital Goods,1
+5969.23,11,1,1,0,0,UPI,1,Digital Goods,1
+4090.84,7,1,1,1,0,UPI,1,Fashion,1
+267.53,19,0,1,1,1,UPI,0,Fashion,1
+3784.9,4,1,1,1,0,UPI,0,Digital Goods,1
+12713.17,16,0,1,1,0,UPI,1,Digital Goods,1
+4369.78,27,0,1,0,0,Credit Card,0,Electronics,0
+22573.32,16,1,1,0,0,UPI,0,Travel,1
+1661.56,13,1,1,1,0,UPI,0,Digital Goods,1
+22992.72,17,0,1,1,0,Credit Card,0,Food,0
+3385.22,16,1,1,1,0,UPI,0,Digital Goods,1
+925.16,11,1,0,1,0,UPI,0,Electronics,1
+5980.82,3,0,1,1,0,Credit Card,0,Travel,1
+19172.4,2,1,1,1,0,UPI,1,Electronics,1
+4179.31,8,0,0,1,0,Debit Card,1,Digital Goods,1
+4360.03,13,0,1,0,2,Debit Card,0,Electronics,0
+3882.35,13,0,1,0,0,Credit Card,0,Food,1
+391.59,2,1,1,1,0,UPI,0,Fashion,1
+26678.09,25,1,1,1,0,Credit Card,1,Fashion,1
+23480.01,23,0,1,0,0,UPI,0,Electronics,0
+15663.17,3,0,0,1,0,Debit Card,0,Travel,1
+5386.4,12,0,1,1,0,Credit Card,0,Fashion,0
+3875.55,6,0,1,1,0,Credit Card,1,Food,0
+2553.61,16,0,1,1,0,Debit Card,0,Digital Goods,0
+17073.03,29,0,0,1,0,UPI,1,Electronics,1
+8000.71,22,0,0,1,0,Credit Card,0,Food,1
+1100.01,28,0,1,1,0,UPI,0,Electronics,0
+2203.67,11,1,1,0,0,Credit Card,0,Digital Goods,1
+4995.52,26,1,1,0,2,UPI,1,Electronics,1
+2022.93,10,1,1,1,0,UPI,1,Fashion,0
+7086.73,15,1,1,1,0,Debit Card,0,Travel,1
+26402.98,11,0,0,1,0,UPI,0,Electronics,1
+26044.07,13,1,1,1,0,UPI,0,Digital Goods,1
+7074.3,29,1,1,0,0,UPI,0,Food,1
+1442.05,7,1,1,0,0,Credit Card,1,Food,1
+9397.48,2,1,0,0,0,UPI,1,Fashion,0
+1035.55,25,0,1,0,0,Credit Card,1,Fashion,1
+2160.26,8,1,1,1,0,Credit Card,0,Electronics,1
+1777.26,15,1,0,1,0,Debit Card,0,Digital Goods,1
+2804.6,9,0,1,1,0,UPI,1,Food,1
+4886.43,8,1,1,1,0,Credit Card,1,Travel,0
+10407.17,2,1,0,1,0,Debit Card,0,Travel,1
+4839.13,22,1,1,0,0,Credit Card,0,Food,1
+682.25,7,0,1,0,1,UPI,1,Electronics,1
+6605.81,3,1,1,0,0,UPI,0,Food,1
+7915.84,3,1,1,0,0,UPI,0,Fashion,1
+8209.62,25,0,1,1,0,Credit Card,0,Electronics,1
+1802.99,19,0,0,1,1,Debit Card,0,Fashion,0
+2986.11,7,0,1,1,0,UPI,0,Food,0
+2270.39,12,0,1,0,0,Debit Card,0,Digital Goods,1
+8475.77,20,1,1,1,0,Credit Card,0,Electronics,1
+544.44,23,0,1,1,0,UPI,0,Fashion,1
+2199.65,13,1,0,0,0,UPI,0,Travel,0
+13648.18,1,1,1,1,0,Debit Card,0,Food,1
+2192.5,13,1,1,1,0,Credit Card,1,Fashion,1
+13741.29,24,0,1,0,0,Credit Card,0,Fashion,0
+7994.17,28,1,1,0,0,Debit Card,0,Digital Goods,1
+527.31,12,1,1,1,1,UPI,0,Fashion,1
+1467.87,14,1,1,1,2,Debit Card,0,Food,1
+24280.19,28,0,1,0,0,UPI,1,Electronics,0
+628.7,16,0,1,1,0,UPI,0,Fashion,1
+1902.33,24,1,1,1,0,Debit Card,0,Fashion,1
+3887.26,12,1,1,1,0,UPI,0,Food,1
+4551.74,6,0,0,1,2,Credit Card,0,Electronics,1
+18198.58,9,1,0,1,0,UPI,0,Electronics,1
+1307.13,11,1,1,0,0,UPI,1,Electronics,1
+3974.57,11,1,1,1,1,UPI,1,Travel,1
+7517.56,2,1,1,0,0,Debit Card,0,Electronics,1
+2550.6,22,0,0,1,0,Debit Card,0,Electronics,1
+1409.49,15,1,1,0,0,Debit Card,1,Travel,1
+2191.92,19,0,1,1,0,Debit Card,1,Fashion,1
+1030.29,16,1,1,1,0,Credit Card,1,Fashion,1
+3434.21,2,0,0,1,0,Credit Card,0,Digital Goods,0
+10343.36,21,1,0,1,1,Debit Card,0,Fashion,1
+2071.72,27,0,0,0,0,Credit Card,0,Travel,0
+6812.07,6,0,0,1,1,Credit Card,0,Food,0
+458.06,3,0,1,0,0,UPI,0,Food,0
+534.38,26,0,1,1,0,Credit Card,1,Electronics,0
+12123.23,7,1,1,0,0,Credit Card,0,Electronics,0
+2905.58,17,0,0,0,1,UPI,1,Electronics,0
+5323.32,19,1,1,0,0,Credit Card,1,Fashion,1
+777.97,11,1,1,1,0,UPI,0,Food,1
+1326.02,12,1,0,1,0,UPI,0,Food,0
+11251.93,25,1,1,1,0,Credit Card,0,Travel,1
+3297.77,6,1,1,1,0,Debit Card,0,Travel,1
+6553.16,6,0,0,1,0,Credit Card,0,Travel,0
+3536.95,17,0,1,0,1,Credit Card,0,Electronics,0
+11164.98,16,1,1,1,0,Debit Card,0,Travel,1
+1975.12,10,1,0,1,0,Debit Card,1,Fashion,1
+342.35,28,1,1,1,0,Credit Card,0,Electronics,1
+1315.86,25,1,1,1,0,Credit Card,0,Electronics,1
+5983.4,11,1,1,1,1,Credit Card,1,Digital Goods,1
+4485.85,28,1,1,0,0,UPI,0,Travel,1
+2635.34,20,1,1,1,0,Credit Card,0,Travel,1
+11259.38,1,0,0,1,1,Credit Card,0,Electronics,1
+1875.36,16,1,0,1,1,Debit Card,0,Electronics,1
+1067.32,6,1,1,0,0,Credit Card,0,Digital Goods,1
+8272.86,13,0,1,1,0,UPI,0,Food,0
+1714.1,1,1,1,1,1,Debit Card,0,Fashion,1
+4359.35,12,1,1,1,0,UPI,1,Fashion,1
+799.95,27,0,0,1,1,UPI,0,Electronics,0
+769.3,18,1,1,1,0,Debit Card,0,Travel,1
+1775.64,24,1,1,1,0,Credit Card,1,Electronics,1
+31931.9,10,0,1,1,0,Credit Card,1,Electronics,1
+5548.5,19,1,0,0,0,Credit Card,1,Digital Goods,0
+2610.04,14,1,1,1,0,Credit Card,0,Fashion,1
+2288.4,26,1,0,1,0,Credit Card,0,Electronics,0
+4378.41,15,1,0,0,1,UPI,0,Fashion,0
+3980.68,11,0,0,1,1,Debit Card,0,Food,1
+7136.31,22,1,1,1,0,UPI,1,Fashion,1
+26867.03,22,1,0,0,0,UPI,0,Digital Goods,1
+2505.12,7,1,1,1,0,Credit Card,0,Electronics,1
+49775.0,14,1,1,0,0,Debit Card,1,Food,1
+504.75,4,0,1,1,0,Debit Card,1,Electronics,0
+4364.17,13,0,0,0,0,Credit Card,1,Fashion,0
+1678.77,13,1,1,1,0,Credit Card,0,Food,1
+5910.46,14,1,1,0,0,UPI,1,Fashion,1
+910.45,18,0,0,1,0,UPI,0,Travel,0
+1520.17,16,0,1,1,0,Credit Card,0,Travel,0
+3606.69,25,1,1,1,0,UPI,0,Digital Goods,1
+880.98,6,0,1,0,0,UPI,1,Fashion,0
+50000.0,8,1,1,0,0,Credit Card,0,Electronics,1
+11261.1,3,1,1,1,1,Credit Card,1,Fashion,1
+8012.06,17,1,1,1,0,Credit Card,0,Electronics,1
+5195.12,6,0,1,0,1,Credit Card,1,Digital Goods,0
+5821.38,8,0,1,1,0,Credit Card,0,Food,1
+3022.4,25,0,1,1,0,Credit Card,0,Electronics,1
+4500.67,13,1,1,1,0,Credit Card,1,Digital Goods,0
+2758.23,21,0,1,0,1,UPI,0,Digital Goods,0
+1214.48,21,0,0,1,1,Debit Card,0,Fashion,0
+2897.44,14,0,1,1,0,Credit Card,0,Travel,1
+15076.84,6,0,1,0,0,Credit Card,0,Fashion,1
+4869.21,17,1,0,0,0,Credit Card,0,Digital Goods,1
+18113.57,20,0,1,1,0,Credit Card,0,Food,1
+9723.13,12,1,1,0,0,Credit Card,0,Electronics,1
+34718.37,13,1,0,1,0,Credit Card,0,Food,0
+4420.68,5,1,1,1,0,UPI,0,Travel,1
+4181.18,20,0,0,1,0,Credit Card,0,Digital Goods,0
+2329.07,6,0,0,0,0,Credit Card,1,Food,0
+12064.38,4,0,1,1,0,Debit Card,1,Food,1
+2300.71,18,0,1,0,0,UPI,0,Digital Goods,1
+6793.86,1,0,1,1,0,Debit Card,0,Food,1
+635.35,10,1,1,0,0,Credit Card,0,Electronics,1
+2216.95,11,0,1,1,0,UPI,0,Fashion,1
+15034.32,27,0,0,1,1,Credit Card,0,Food,1
+5978.09,8,1,1,1,0,Credit Card,1,Electronics,1
+13792.23,19,1,1,0,0,UPI,0,Fashion,1
+2108.63,15,1,1,1,1,Credit Card,0,Electronics,0
+2828.29,22,1,1,1,0,UPI,0,Travel,1
+649.53,21,0,1,0,3,UPI,0,Digital Goods,0
+3503.5,27,0,1,1,0,UPI,0,Electronics,0
+8115.16,12,0,0,1,0,Debit Card,0,Fashion,1
+2813.12,4,1,1,1,2,Credit Card,1,Electronics,1
+3889.1,10,1,1,1,0,Credit Card,0,Fashion,1
+1356.74,2,0,0,1,0,Credit Card,0,Electronics,0
+1498.55,9,1,1,1,1,Credit Card,0,Digital Goods,1
+3558.18,19,0,1,1,0,Credit Card,1,Electronics,1
+7710.03,16,0,0,1,0,Credit Card,1,Digital Goods,0
+2447.36,25,0,1,1,0,Debit Card,1,Electronics,1
+7167.93,4,1,1,1,0,Debit Card,0,Travel,1
+11296.02,24,1,1,1,0,Debit Card,0,Fashion,1
+2180.76,20,0,1,1,0,Debit Card,0,Electronics,1
+1103.48,20,0,1,1,2,Credit Card,0,Food,1
+368.07,26,0,0,1,0,UPI,0,Fashion,0
+4500.51,7,0,1,1,0,Credit Card,1,Fashion,1
+1686.59,4,0,1,1,0,Credit Card,1,Electronics,1
+3833.85,17,0,1,1,1,Credit Card,1,Electronics,0
+1789.15,17,0,1,0,0,Credit Card,0,Food,0
+2731.94,22,0,0,1,0,Credit Card,0,Electronics,0
+5151.77,10,0,1,0,1,UPI,0,Electronics,0
+2433.51,1,1,1,1,0,Debit Card,0,Food,1
+9792.32,9,0,1,1,1,Debit Card,0,Travel,1
+1588.34,20,1,1,1,0,UPI,0,Fashion,1
+1851.7,8,0,0,1,1,Debit Card,1,Travel,0
+2324.17,11,1,1,0,0,Credit Card,0,Electronics,1
+5398.96,13,0,1,0,0,Credit Card,0,Food,0
+1167.28,9,1,1,1,0,Debit Card,1,Food,1
+11077.74,19,1,1,1,0,UPI,0,Digital Goods,1
+582.73,24,0,1,1,0,Credit Card,1,Travel,0
+2937.68,9,0,1,1,0,UPI,1,Electronics,1
+4949.95,8,1,1,1,0,UPI,0,Electronics,1
+773.74,25,1,0,1,0,Credit Card,1,Fashion,0
+5048.23,1,0,0,0,0,UPI,1,Electronics,1
+8018.14,18,0,1,1,0,Credit Card,0,Travel,1
+4422.58,8,0,1,1,0,Debit Card,0,Fashion,1
+3268.0,17,1,0,1,0,UPI,0,Travel,1
+3199.39,11,0,0,1,1,UPI,0,Fashion,1
+3428.23,4,1,0,1,0,UPI,0,Digital Goods,1
+9085.12,17,0,1,0,0,Credit Card,0,Food,1
+2688.41,24,0,0,0,0,UPI,1,Digital Goods,0
+2137.67,6,0,0,1,0,Debit Card,0,Electronics,0
+8354.68,27,0,1,1,0,UPI,1,Travel,1
+6333.28,16,1,1,1,0,Credit Card,0,Food,1
+10049.63,21,1,0,0,1,UPI,0,Food,0
+1121.96,12,1,1,1,0,Credit Card,0,Digital Goods,1
+10695.98,29,1,1,1,1,Debit Card,1,Food,0
+2944.19,6,1,1,1,0,Credit Card,0,Food,1
+1385.53,10,1,1,1,0,UPI,0,Electronics,1
+7543.07,24,0,0,0,0,UPI,0,Fashion,0
+4883.49,21,1,1,0,0,UPI,0,Digital Goods,0
+1184.03,14,0,1,1,0,Credit Card,1,Digital Goods,1
+2766.05,22,1,1,1,0,UPI,0,Food,1
+6631.82,23,1,1,0,0,UPI,1,Electronics,1
+594.73,1,0,1,1,0,UPI,0,Digital Goods,0
+6038.94,23,1,1,1,1,Debit Card,0,Food,1
+2839.11,12,0,1,1,0,Credit Card,0,Electronics,1
+5857.77,28,1,1,1,0,Debit Card,1,Food,0
+377.4,15,0,1,1,0,Credit Card,1,Digital Goods,0
+17305.28,27,1,1,0,0,UPI,0,Travel,1
+1896.72,1,1,0,1,3,Debit Card,0,Travel,1
+1950.61,27,1,0,0,0,Credit Card,0,Fashion,0
+2753.15,17,1,1,1,0,Credit Card,0,Fashion,1
+6061.34,15,1,1,1,0,Credit Card,0,Electronics,1
+3035.62,17,0,1,1,0,Credit Card,0,Food,1
+16559.37,18,0,1,1,0,Credit Card,1,Digital Goods,1
+2765.66,9,1,1,0,1,UPI,1,Fashion,1
+18128.59,13,1,0,0,0,UPI,1,Electronics,0
+2856.4,19,0,0,1,0,Credit Card,0,Electronics,0
+3522.47,2,0,1,1,1,Credit Card,0,Fashion,0
+712.35,25,0,1,1,0,Credit Card,1,Electronics,1
+1564.52,12,0,0,1,1,Credit Card,0,Electronics,1
+4700.08,18,0,1,1,0,Credit Card,0,Fashion,1
+818.03,22,0,1,0,0,Credit Card,1,Digital Goods,0
+18960.54,1,1,1,0,0,UPI,1,Food,1
+4338.64,13,0,1,1,0,UPI,0,Travel,1
+2449.26,29,0,1,1,0,Credit Card,0,Fashion,1
+3200.45,7,1,1,0,0,Debit Card,0,Digital Goods,1
+18671.75,26,1,1,1,0,Credit Card,0,Digital Goods,1
+7649.83,27,0,1,0,0,Debit Card,0,Digital Goods,1
+523.51,29,0,0,1,0,UPI,0,Fashion,0
+2302.82,3,0,1,1,0,UPI,1,Electronics,1
+8770.41,2,1,1,1,0,Debit Card,0,Fashion,1
+1494.21,26,0,1,0,0,Debit Card,0,Travel,1
+5004.42,29,1,1,0,0,Credit Card,0,Digital Goods,1
+360.48,9,1,0,1,0,Credit Card,1,Fashion,1
+1942.71,18,1,1,1,1,UPI,0,Fashion,1
+3908.05,11,0,1,1,1,Credit Card,0,Digital Goods,0
+7234.69,4,1,0,1,0,Credit Card,0,Digital Goods,1
+2159.58,1,1,1,1,0,Credit Card,1,Digital Goods,1
+8841.24,1,1,1,1,0,Credit Card,0,Travel,1
+789.52,2,0,1,1,0,Credit Card,1,Electronics,1
+2903.32,23,0,1,0,0,Credit Card,0,Digital Goods,0
+4208.44,27,1,1,1,0,UPI,0,Fashion,1
+726.5,25,0,1,1,0,UPI,0,Electronics,1
+12748.49,4,0,1,1,0,Credit Card,0,Electronics,1
+4685.7,26,0,1,1,0,UPI,0,Electronics,0
+1156.35,10,1,1,0,1,Debit Card,0,Electronics,1
+6086.47,19,1,1,1,0,UPI,0,Fashion,1
+1515.1,21,0,1,1,0,Debit Card,0,Digital Goods,0
+1823.49,14,0,1,1,0,UPI,0,Food,1
+888.03,10,1,1,1,0,Debit Card,0,Food,1
+2437.63,8,0,1,1,0,Credit Card,1,Fashion,1
+388.15,11,1,0,1,0,Credit Card,0,Fashion,1
+4342.31,11,1,1,0,0,UPI,0,Food,1
+22307.46,11,1,1,0,1,Debit Card,0,Digital Goods,1
+2239.94,18,1,1,0,0,Credit Card,1,Food,1
+348.95,18,1,0,1,0,Debit Card,0,Electronics,1
+2165.24,15,0,1,1,1,Credit Card,0,Electronics,0
+3263.95,17,0,1,0,0,Debit Card,1,Food,0
+4073.85,19,0,0,1,0,Credit Card,1,Travel,1
+3275.6,21,1,1,1,0,UPI,0,Food,1
+16036.25,26,0,0,1,0,Credit Card,0,Digital Goods,0
+2897.91,27,0,1,1,0,Debit Card,0,Food,1
+2353.3,3,1,1,1,0,Credit Card,0,Food,1
+4960.85,19,1,1,1,0,Credit Card,1,Fashion,1
+5459.16,25,0,1,0,2,Credit Card,1,Electronics,0
+2825.96,10,0,1,1,0,UPI,1,Digital Goods,0
+2741.62,16,0,1,1,0,Debit Card,0,Electronics,1
+1824.09,12,0,1,0,0,Credit Card,1,Food,0
+7256.15,9,0,1,0,0,UPI,0,Food,1
+738.96,16,0,1,1,0,UPI,0,Electronics,0
+3933.2,27,1,1,1,0,UPI,0,Electronics,1
+8502.17,27,1,1,1,0,UPI,0,Travel,1
+3306.94,6,0,1,1,0,UPI,1,Electronics,0
+612.71,14,1,0,1,0,UPI,1,Electronics,1
+2968.03,25,1,1,1,1,Debit Card,0,Food,1
+7240.26,4,0,1,1,0,UPI,0,Digital Goods,1
+4392.96,28,0,0,0,0,Credit Card,0,Electronics,0
+1183.4,15,0,1,1,0,UPI,0,Food,0
+34405.64,4,1,1,1,0,UPI,0,Food,1
+8876.59,3,1,1,1,0,Credit Card,0,Fashion,1
+4076.52,18,0,1,1,0,UPI,1,Fashion,0
+50000.0,23,0,1,1,1,Credit Card,0,Fashion,1
+2611.98,16,0,1,1,0,Credit Card,0,Electronics,1
+771.45,3,1,1,1,0,UPI,1,Digital Goods,0
+2961.19,18,0,1,1,0,Debit Card,0,Food,1
+3744.36,21,0,0,1,0,UPI,0,Fashion,0
+725.68,7,1,1,1,1,Debit Card,1,Travel,1
+6988.2,2,1,1,1,1,Credit Card,1,Electronics,1
+9375.09,20,1,1,1,0,UPI,1,Fashion,1
+843.15,15,0,1,0,0,UPI,0,Fashion,0
+1824.39,21,0,1,1,1,Credit Card,1,Food,1
+1027.25,6,1,1,1,0,Credit Card,0,Electronics,1
+948.5,22,0,1,1,0,Credit Card,1,Travel,1
+5435.86,25,1,1,1,0,Debit Card,1,Fashion,1
+3830.36,3,0,0,1,0,Credit Card,0,Food,0
+2804.86,26,0,0,1,1,Credit Card,0,Electronics,0
+4762.86,13,1,1,1,1,Debit Card,0,Digital Goods,0
+2372.67,3,0,1,1,0,UPI,0,Travel,1
+1822.07,16,0,1,1,0,Credit Card,1,Fashion,1
+2346.38,15,1,1,1,0,Credit Card,1,Travel,1
+2726.6,28,1,1,1,0,Credit Card,0,Electronics,0
+3563.17,17,0,1,1,0,UPI,0,Food,0
+5834.65,7,0,1,0,0,Credit Card,0,Food,1
+1680.25,5,0,1,0,0,UPI,0,Fashion,0
+2609.13,24,1,1,1,2,Credit Card,0,Digital Goods,1
+1965.6,2,1,0,1,0,Credit Card,1,Digital Goods,1
+1870.09,14,1,0,0,0,Credit Card,1,Fashion,1
+7711.13,11,0,1,1,0,Debit Card,0,Digital Goods,0
+1721.33,7,0,0,0,1,Debit Card,0,Fashion,1
+2995.29,19,1,1,1,0,Credit Card,0,Fashion,1
+1258.81,2,1,0,1,0,UPI,0,Food,1
+7070.57,3,1,1,1,0,UPI,0,Electronics,1
+10525.85,12,1,1,1,0,Credit Card,0,Digital Goods,1
+4147.06,13,0,1,0,1,Credit Card,1,Electronics,1
+24273.07,15,1,0,0,0,Credit Card,0,Fashion,1
+424.84,1,0,1,1,0,Credit Card,1,Food,1
+1748.1,20,0,1,0,0,Debit Card,1,Food,0
+6739.96,18,1,1,1,1,UPI,1,Fashion,1
+736.22,29,1,1,1,0,Credit Card,0,Fashion,1
+2956.79,3,0,1,1,0,UPI,0,Food,1
+3758.76,7,1,1,1,0,Credit Card,1,Electronics,1
+2728.03,22,0,1,1,1,Credit Card,1,Fashion,1
+3344.2,23,0,1,0,0,UPI,0,Food,0
+8183.97,21,0,1,1,1,Debit Card,0,Digital Goods,1
+10338.92,23,0,0,1,0,UPI,0,Digital Goods,1
+853.2,11,1,1,0,2,Debit Card,0,Food,1
+932.54,28,0,1,1,0,Debit Card,0,Electronics,0
+5456.09,14,0,1,1,1,Debit Card,0,Travel,0
+1078.74,26,1,1,1,0,UPI,0,Travel,1
+23650.63,23,0,1,1,0,Credit Card,0,Fashion,1
+3156.77,15,1,1,0,0,Debit Card,0,Electronics,1
+4407.29,13,1,1,0,0,Debit Card,0,Digital Goods,1
+2933.54,3,1,1,1,0,Debit Card,1,Food,0
+2422.86,10,0,1,1,0,UPI,0,Fashion,1
+1682.54,7,1,0,0,0,UPI,0,Fashion,0
+18930.74,17,0,1,1,0,UPI,1,Food,1
+5040.05,6,0,1,1,0,Credit Card,1,Electronics,1
+465.45,6,1,1,1,0,UPI,0,Electronics,0
+1851.72,26,1,1,1,0,Credit Card,0,Travel,0
+5949.57,4,0,1,1,0,Debit Card,0,Travel,1
+5325.24,1,0,1,0,0,Debit Card,1,Fashion,0
+11953.5,17,0,1,0,0,Credit Card,0,Food,0
+4579.18,4,1,1,1,0,Credit Card,0,Fashion,1
+2713.63,13,1,1,0,0,Debit Card,1,Fashion,0
+2938.48,29,1,0,1,0,Credit Card,1,Fashion,1
+4684.5,1,1,0,0,0,Credit Card,0,Food,1
+6030.11,7,1,1,1,0,UPI,0,Food,0
+1845.5,7,1,1,1,0,Credit Card,0,Electronics,1
+2526.57,15,0,1,1,0,Debit Card,0,Electronics,1
+6186.54,16,0,1,1,0,UPI,0,Food,0
+4041.46,5,1,0,1,0,Credit Card,0,Travel,1
+3151.3,26,1,1,0,2,Credit Card,1,Fashion,0
+8101.69,9,1,1,1,0,Credit Card,0,Travel,1
+1667.91,25,0,1,1,0,UPI,1,Digital Goods,0
+6406.88,29,1,1,1,0,Credit Card,0,Food,1
+11896.02,10,0,1,1,0,Debit Card,0,Electronics,1
+3474.82,11,0,1,0,0,Debit Card,0,Fashion,0
+3198.13,6,0,1,1,0,Credit Card,1,Food,1
+1216.06,17,0,0,1,1,Debit Card,0,Digital Goods,0
+2425.19,18,1,1,0,0,UPI,0,Food,1
+1806.25,16,0,0,1,0,UPI,0,Travel,1
+9512.42,28,0,0,0,0,Debit Card,1,Travel,1
+2697.63,22,0,1,1,0,Debit Card,1,Fashion,1
+2632.92,2,1,1,0,1,Credit Card,1,Digital Goods,1
+10315.2,14,0,0,1,0,Credit Card,0,Travel,0
+3240.43,7,1,0,0,0,Credit Card,0,Fashion,1
+6077.01,22,1,1,1,0,Debit Card,0,Digital Goods,1
+2443.46,8,0,1,1,1,Debit Card,0,Travel,1
+5152.68,3,1,1,0,0,UPI,0,Digital Goods,1
+2935.33,28,0,1,0,1,UPI,0,Travel,0
+12664.8,11,1,1,0,0,UPI,0,Fashion,1
+4413.27,23,1,0,0,0,UPI,1,Electronics,1
+859.87,15,0,1,1,0,Credit Card,0,Travel,1
+2150.43,23,1,1,1,0,Debit Card,1,Fashion,1
+989.32,16,0,0,0,0,UPI,0,Electronics,0
+6002.46,14,1,1,1,0,Debit Card,0,Electronics,1
+7683.78,28,0,1,1,1,Credit Card,0,Travel,0
+4526.52,17,1,1,1,0,Credit Card,1,Fashion,1
+2111.82,24,0,1,1,0,UPI,0,Food,1
+1120.67,1,0,1,1,1,Debit Card,0,Fashion,1
+3341.83,14,1,1,1,0,UPI,1,Digital Goods,1
+1797.04,15,0,1,1,1,UPI,0,Food,0
+8870.38,11,0,0,1,0,Credit Card,0,Fashion,1
+2369.7,26,1,0,1,0,Debit Card,0,Travel,1
+5527.34,5,1,0,0,0,Credit Card,0,Electronics,0
+2166.23,1,1,1,1,0,Debit Card,0,Fashion,1
+10449.93,25,1,1,1,0,Credit Card,0,Food,1
+1267.37,1,1,1,0,0,Credit Card,0,Fashion,1
+2454.42,14,1,1,1,0,Credit Card,1,Food,1
+6251.84,9,0,1,0,0,Credit Card,0,Fashion,1
+18707.8,20,0,0,0,1,Debit Card,0,Electronics,1
+836.47,22,1,1,1,1,Credit Card,1,Digital Goods,1
+981.55,25,1,1,0,0,UPI,0,Food,1
+5601.33,28,1,1,1,1,Debit Card,0,Fashion,1
+16984.16,7,1,0,1,0,Credit Card,0,Travel,1
+8108.24,15,0,1,1,1,Credit Card,0,Digital Goods,1
+7164.97,24,0,1,0,0,Debit Card,0,Electronics,0
+1204.2,7,0,1,1,1,Debit Card,1,Fashion,0
+4548.11,3,1,0,0,0,Debit Card,1,Fashion,1
+5834.65,22,1,1,1,0,Debit Card,0,Digital Goods,1
+4329.75,10,1,1,0,0,Credit Card,0,Fashion,0
+4745.13,10,1,1,1,0,Credit Card,0,Food,1
+7438.24,1,0,1,1,0,Credit Card,0,Travel,1
+306.57,6,0,1,1,1,UPI,0,Electronics,0
+456.37,11,1,0,1,0,Debit Card,1,Electronics,1
+1065.15,1,0,1,1,0,Credit Card,1,Electronics,1
+3815.87,1,1,1,0,1,Debit Card,1,Travel,0
+2371.14,12,1,1,1,1,Debit Card,0,Fashion,1
+922.4,19,0,1,1,0,Credit Card,0,Food,1
+17685.84,8,0,1,0,0,Credit Card,0,Travel,0
+2843.71,14,1,1,1,0,Credit Card,0,Fashion,1
+4259.58,2,1,1,1,0,Debit Card,1,Digital Goods,1
+8906.47,7,1,1,1,0,UPI,0,Fashion,0
+29451.05,28,1,1,1,1,Credit Card,0,Digital Goods,1
+3298.24,14,1,1,1,0,UPI,0,Food,1
+4212.87,9,0,1,1,0,UPI,0,Digital Goods,0
+1007.5,3,0,1,1,0,UPI,1,Electronics,1
+3336.8,28,1,1,1,0,UPI,0,Fashion,1
+992.14,29,0,1,1,0,Credit Card,0,Digital Goods,1
+2224.01,3,1,1,1,0,Debit Card,0,Travel,1
+7499.22,22,1,1,0,1,Credit Card,0,Electronics,1
+5005.28,14,1,0,0,0,Credit Card,0,Travel,1
+9026.06,28,1,1,1,0,Debit Card,0,Electronics,1
+4499.83,3,1,1,0,0,Credit Card,0,Travel,1
+11226.73,6,1,1,1,0,Debit Card,0,Digital Goods,1
+1310.56,15,0,1,1,1,UPI,1,Travel,0
+11814.51,6,1,1,1,1,Credit Card,0,Digital Goods,1
+1975.38,14,1,0,1,0,UPI,0,Digital Goods,1
+2399.54,12,1,1,0,0,Debit Card,1,Travel,1
+2559.31,12,1,0,1,0,Credit Card,0,Travel,1
+21858.53,11,0,1,1,0,UPI,0,Food,1
+1644.52,6,1,0,1,0,Credit Card,0,Fashion,1
+5663.27,19,1,1,1,0,UPI,1,Travel,1
+5318.54,22,1,0,1,1,UPI,0,Fashion,1
+3856.97,26,0,0,1,1,UPI,1,Electronics,0
+1587.52,24,1,1,1,1,Credit Card,0,Electronics,1
+1112.47,15,0,1,1,0,Debit Card,0,Electronics,0
+1105.82,27,0,1,0,0,UPI,0,Travel,0
+10379.9,21,1,0,0,0,UPI,1,Electronics,1
+1586.52,1,0,1,1,1,UPI,0,Electronics,0
+1041.01,23,1,0,1,0,Credit Card,0,Food,1
+9085.92,10,0,1,1,0,Debit Card,0,Food,1
+6461.13,19,0,1,1,0,Credit Card,0,Digital Goods,1
+3370.84,18,1,1,1,0,UPI,0,Food,1
+2054.43,2,0,1,1,0,Credit Card,0,Fashion,1
+225.73,25,1,1,0,2,Credit Card,0,Electronics,1
+1592.32,7,0,0,1,0,UPI,0,Digital Goods,1
+2920.25,7,0,0,1,0,Credit Card,0,Food,0
+1183.33,15,1,1,0,1,Credit Card,1,Fashion,0
+1185.0,14,1,1,1,1,UPI,0,Electronics,1
+27041.04,9,1,1,0,1,Credit Card,1,Electronics,1
+628.01,12,1,1,1,0,UPI,0,Travel,1
+4637.01,14,0,1,1,0,Credit Card,0,Food,1
+1545.99,21,1,0,1,0,UPI,0,Food,1
+4160.88,27,0,1,1,0,Credit Card,0,Electronics,0
+1018.1,19,0,1,0,0,Credit Card,1,Fashion,0
+11342.97,6,0,1,1,0,Debit Card,0,Travel,0
+2446.46,20,0,0,0,0,Credit Card,0,Food,0
+18903.29,15,0,0,0,0,Debit Card,1,Food,0
+13435.41,18,1,1,1,0,Debit Card,0,Electronics,1
+1375.29,13,1,0,0,0,Debit Card,0,Food,0
+1246.46,7,0,1,1,0,Credit Card,1,Electronics,0
+920.97,24,1,1,1,1,Credit Card,0,Fashion,0
+1262.19,3,1,1,1,0,Credit Card,0,Digital Goods,1
+11713.93,26,1,1,0,0,Credit Card,0,Travel,1
+17455.06,18,1,1,0,2,Credit Card,0,Fashion,1
+1891.45,29,1,1,0,0,Credit Card,1,Digital Goods,1
+10210.4,21,0,1,1,0,UPI,0,Electronics,1
+3257.71,22,0,1,1,1,UPI,0,Fashion,0
+2610.37,5,1,1,0,0,Credit Card,0,Digital Goods,0
+2962.07,3,1,0,1,0,Debit Card,0,Digital Goods,1
+7591.79,12,1,0,1,1,Debit Card,0,Travel,0
+458.67,8,0,1,0,0,UPI,0,Fashion,0
+2378.01,15,0,1,1,0,UPI,0,Travel,1
+1856.86,10,1,1,1,0,Debit Card,0,Digital Goods,1
+7818.17,22,1,1,0,0,Debit Card,1,Travel,1
+7292.02,17,0,0,1,1,Debit Card,0,Food,0
+9534.83,20,0,1,1,0,Credit Card,0,Food,0
+6589.66,3,0,0,1,1,Debit Card,1,Fashion,1
+4966.79,28,1,1,0,0,Credit Card,0,Travel,1
+1528.09,22,1,1,1,0,Debit Card,0,Fashion,1
+4523.91,13,0,1,1,0,Debit Card,0,Digital Goods,1
+2402.26,10,1,1,1,2,UPI,0,Travel,1
+2058.9,4,1,1,1,0,UPI,0,Electronics,1
+374.59,25,0,0,1,1,Debit Card,1,Electronics,0
+10315.65,15,1,1,0,0,UPI,1,Travel,1
+1315.62,22,1,0,1,0,UPI,0,Fashion,0
+3374.24,28,0,1,0,0,Debit Card,1,Fashion,1
+23372.3,7,0,1,0,0,UPI,0,Digital Goods,1
+8675.85,9,0,0,1,0,Debit Card,0,Fashion,1
+2179.71,6,1,0,1,0,Debit Card,0,Fashion,1
+43192.82,19,1,1,1,0,Credit Card,1,Travel,1
+10010.29,15,1,1,0,1,Debit Card,0,Digital Goods,0
+1510.32,29,1,1,1,0,Credit Card,0,Fashion,1
+2219.05,20,0,1,1,0,Debit Card,0,Food,0
+10009.17,22,0,1,1,0,Debit Card,1,Travel,1
+8200.26,11,1,0,1,0,Credit Card,0,Travel,1
+5304.46,5,1,1,1,0,Credit Card,0,Food,1
+1048.18,12,0,1,0,0,Credit Card,0,Fashion,1
+3199.93,14,1,1,1,0,Credit Card,1,Fashion,1
+8274.7,27,0,1,1,0,Credit Card,0,Fashion,0
+23782.47,26,1,0,0,1,Credit Card,0,Travel,1
+4160.38,2,0,1,1,0,Debit Card,0,Fashion,0
+2897.54,12,0,0,1,0,UPI,0,Food,0
+2839.1,20,0,1,0,0,Credit Card,1,Fashion,1
+5905.49,29,1,1,0,0,Credit Card,0,Travel,1
+571.87,18,1,1,1,0,Debit Card,1,Food,0
+2349.84,7,1,1,1,0,UPI,0,Fashion,1
+3109.06,27,0,1,1,1,Credit Card,0,Fashion,0
+5050.62,1,1,1,1,0,Credit Card,0,Digital Goods,1
+3293.14,13,0,0,1,0,Debit Card,0,Electronics,0
+2748.42,5,1,1,0,0,Credit Card,0,Food,0
+2128.93,22,0,1,0,0,Credit Card,0,Travel,1
+3796.68,17,0,0,0,0,UPI,0,Travel,1
+5973.28,4,0,0,1,0,Credit Card,1,Digital Goods,0
+5179.68,11,0,1,1,0,UPI,0,Digital Goods,1
+9510.64,22,1,1,1,0,UPI,0,Food,1
+2313.07,14,0,1,0,0,UPI,1,Fashion,0
+6522.77,20,0,1,1,0,UPI,0,Travel,0
+765.52,14,1,1,1,2,UPI,0,Fashion,0
+2537.43,14,1,0,1,0,Credit Card,0,Travel,1
+14709.01,24,0,1,1,0,UPI,0,Food,1
+1451.04,12,0,0,0,0,Credit Card,0,Travel,0
+7159.74,14,1,1,1,0,Credit Card,0,Electronics,1
+1879.7,9,0,1,1,1,UPI,0,Food,1
+4022.64,18,0,1,1,0,Credit Card,0,Travel,1
+756.99,24,1,1,0,0,Credit Card,0,Fashion,1
+20680.12,12,1,1,1,0,Debit Card,0,Travel,1
+16092.34,6,1,1,0,0,Credit Card,0,Food,0
+1725.95,5,1,0,1,0,UPI,0,Digital Goods,1
+1275.44,15,1,1,1,0,Credit Card,0,Fashion,1
+705.33,3,0,0,1,0,Debit Card,0,Fashion,1
+4471.96,19,0,1,0,0,Debit Card,0,Fashion,0
+4393.25,5,1,1,1,0,Credit Card,0,Food,1
+6395.48,24,0,0,1,0,UPI,0,Food,1
+5588.72,22,1,0,0,0,Credit Card,1,Electronics,0
+1344.18,10,1,1,0,0,UPI,0,Fashion,1
+10580.88,15,0,0,0,0,Credit Card,0,Travel,1
+17310.65,9,0,1,1,1,Credit Card,0,Food,1
+2644.78,4,1,1,1,1,Debit Card,0,Fashion,1
+2002.1,2,1,1,0,0,Credit Card,0,Digital Goods,1
+2891.2,25,0,0,0,1,Debit Card,0,Electronics,1
+2441.72,5,1,1,1,1,UPI,1,Electronics,0
+8645.49,25,1,0,1,0,Debit Card,0,Fashion,1
+8932.83,3,1,1,1,0,Credit Card,0,Fashion,1
+6714.34,12,1,1,1,1,Credit Card,1,Electronics,1
+2644.83,6,1,1,1,0,Credit Card,0,Fashion,1
+3785.23,25,0,1,1,0,Credit Card,0,Food,1
+9999.92,19,0,1,1,1,UPI,0,Digital Goods,1
+6754.92,11,1,1,0,1,Credit Card,0,Food,0
+4462.68,18,1,1,0,1,Credit Card,1,Food,1
+5110.1,21,0,0,1,2,UPI,1,Fashion,0
+11344.7,2,0,1,0,0,Credit Card,0,Fashion,1
+2493.38,29,0,0,1,0,UPI,0,Digital Goods,0
+1298.42,25,1,1,0,1,UPI,0,Electronics,1
+2544.32,11,1,1,1,1,Credit Card,1,Digital Goods,0
+24022.73,16,1,0,0,0,Credit Card,0,Electronics,0
+1624.49,3,0,0,1,1,Debit Card,1,Digital Goods,0
+12265.46,17,1,0,1,1,Credit Card,0,Travel,1
+1199.06,11,0,1,1,0,Credit Card,0,Electronics,1
+3726.67,14,0,1,0,0,Credit Card,0,Electronics,1
+7029.04,4,1,0,1,0,Debit Card,1,Fashion,1
+2473.39,6,1,0,1,0,Credit Card,0,Food,1
+1907.83,13,0,1,1,1,Credit Card,1,Electronics,1
+5444.7,20,1,1,1,0,Debit Card,0,Fashion,0
+1274.29,29,0,1,0,0,Debit Card,0,Food,1
+10695.92,5,1,0,1,0,Credit Card,1,Food,1
+1998.11,15,1,1,1,0,UPI,1,Fashion,1
+5881.38,2,1,1,1,0,Credit Card,0,Travel,1
+2000.48,11,0,1,1,0,Credit Card,0,Fashion,1
+3190.73,27,0,1,0,0,Credit Card,0,Digital Goods,0
+3126.56,27,0,1,1,0,Debit Card,0,Fashion,0
+9608.89,27,1,1,1,0,UPI,0,Food,1
+6467.75,2,0,1,0,0,Credit Card,0,Travel,0
+1135.43,8,0,0,1,0,UPI,0,Travel,0
+847.73,29,1,0,1,0,UPI,0,Electronics,1
+1103.72,1,0,0,1,0,Debit Card,0,Fashion,1
+1550.26,16,1,0,1,0,Credit Card,0,Electronics,1
+10219.22,28,0,1,0,1,UPI,0,Fashion,1
+4198.27,10,0,0,0,0,Credit Card,0,Electronics,0
+10675.68,6,1,1,1,1,Credit Card,0,Travel,1
+1618.05,25,1,0,1,1,Credit Card,0,Travel,1
+2687.23,24,0,1,1,1,Credit Card,0,Travel,1
+2282.29,24,0,0,1,0,UPI,1,Food,0
+757.02,22,1,1,1,0,Credit Card,0,Electronics,1
+11856.16,4,1,0,1,0,UPI,1,Fashion,1
+1196.56,27,0,1,1,0,UPI,0,Electronics,1
+1023.3,11,1,1,1,0,Credit Card,1,Fashion,1
+4764.61,7,1,1,1,1,UPI,0,Electronics,1
+9935.79,20,1,1,1,0,UPI,1,Travel,1
+7925.63,22,0,0,1,0,Credit Card,1,Travel,1
+5910.19,8,0,1,1,0,Credit Card,0,Electronics,1
+16228.7,17,0,0,1,0,UPI,0,Fashion,0
+1945.78,10,1,0,1,1,Credit Card,0,Food,1
+658.89,22,1,1,1,1,UPI,0,Travel,1
+6131.0,3,0,1,1,0,Debit Card,0,Fashion,1
+2486.32,17,1,1,0,0,Debit Card,0,Food,1
+6636.51,27,0,1,0,0,UPI,0,Electronics,1
+23958.95,7,0,1,1,1,Credit Card,0,Electronics,1
+10358.77,1,1,1,1,1,Credit Card,0,Electronics,1
+4983.68,24,0,1,1,2,Credit Card,1,Food,0
+2037.6,14,1,1,0,0,UPI,0,Fashion,1
+10793.15,23,0,1,1,0,UPI,0,Electronics,1
+10416.06,2,0,1,0,0,Debit Card,1,Fashion,0
+8083.93,20,0,1,1,0,UPI,0,Digital Goods,1
+4674.78,10,0,1,1,0,UPI,0,Fashion,1
+1465.98,15,1,1,0,1,UPI,0,Food,0
+4762.6,7,1,0,1,0,Credit Card,0,Travel,0
+12949.13,2,1,1,0,0,Debit Card,0,Food,1
+1813.25,27,1,1,1,0,Credit Card,1,Fashion,1
+6859.18,7,1,1,0,0,Credit Card,0,Fashion,0
+27270.94,5,1,0,1,0,Credit Card,0,Fashion,1
+7235.78,29,1,1,1,0,Debit Card,0,Food,1
+6774.66,17,1,1,1,0,Credit Card,0,Travel,0
+4370.07,17,0,1,1,1,Credit Card,0,Fashion,0
+7819.65,25,0,1,0,0,UPI,1,Food,0
+50000.0,6,0,1,1,0,UPI,0,Fashion,1
+1778.82,13,0,1,0,0,UPI,0,Travel,1
+1867.65,9,1,1,0,0,Credit Card,1,Travel,1
+5111.91,4,1,1,1,0,Credit Card,0,Fashion,1
+1362.51,27,1,1,1,0,UPI,1,Food,1
+1626.98,16,1,1,1,0,Credit Card,1,Digital Goods,1
+1379.18,4,0,0,1,1,UPI,0,Food,1
+3697.97,14,0,0,1,0,Credit Card,0,Electronics,1
+474.12,29,0,1,1,0,Credit Card,0,Digital Goods,1
+1806.61,13,1,0,1,0,Debit Card,0,Digital Goods,1
+1131.03,8,1,0,1,0,Credit Card,0,Fashion,1
+2351.99,4,1,1,1,0,Credit Card,0,Travel,1
+5605.14,5,1,1,1,0,UPI,0,Food,1
+5581.25,8,0,1,1,0,Debit Card,1,Fashion,1
+3886.13,20,1,1,1,0,Credit Card,0,Electronics,1
+6102.85,7,0,1,1,0,Credit Card,0,Travel,0
+2603.53,20,0,1,1,0,Credit Card,0,Digital Goods,1
+3241.61,17,0,1,1,0,Debit Card,0,Fashion,1
+1641.11,11,0,1,1,0,UPI,1,Food,1
+4074.46,14,1,0,1,1,Credit Card,1,Digital Goods,1
+2499.8,29,1,1,0,1,Credit Card,0,Fashion,1
+660.43,9,0,0,1,0,UPI,0,Electronics,0
+3585.28,7,1,0,1,0,Credit Card,0,Travel,1
+33138.97,13,1,1,1,0,UPI,0,Fashion,1
+730.86,12,1,1,0,0,Credit Card,0,Digital Goods,1
+3735.21,1,0,0,0,0,UPI,0,Digital Goods,0
+584.17,29,1,1,1,0,Debit Card,1,Electronics,1
+16639.39,19,1,1,1,0,UPI,1,Fashion,1
+22698.03,2,0,1,1,0,UPI,0,Electronics,1
+10274.71,14,1,1,1,0,Debit Card,0,Digital Goods,0
+15448.3,24,1,0,1,0,Credit Card,0,Fashion,1
+2924.96,3,1,1,0,1,Credit Card,0,Food,1
+1747.06,7,1,1,0,0,Debit Card,0,Food,0
+897.96,21,1,0,0,1,Debit Card,0,Fashion,1
+3296.75,16,0,1,1,0,Credit Card,0,Digital Goods,1
+8568.07,6,1,1,0,2,UPI,0,Electronics,1
+5431.59,28,1,1,1,0,Debit Card,0,Digital Goods,1
+2764.24,28,0,1,1,0,Credit Card,0,Food,1
+18907.09,20,0,1,0,0,Credit Card,0,Fashion,1
+966.49,25,1,1,1,0,Credit Card,1,Electronics,1
+1518.78,19,1,0,1,0,Credit Card,1,Digital Goods,0
+8923.98,2,0,1,1,0,Credit Card,0,Food,1
+518.83,7,0,1,1,0,Credit Card,0,Travel,1
+964.45,21,0,1,1,0,UPI,1,Fashion,0
+3048.76,19,0,1,0,0,Debit Card,0,Fashion,0
+6386.9,22,0,1,1,0,Credit Card,0,Digital Goods,1
+6426.54,16,0,1,0,0,Credit Card,1,Travel,1
+11467.38,9,0,1,1,1,UPI,0,Digital Goods,1
+5928.23,27,0,1,0,0,Credit Card,1,Digital Goods,1
+1352.86,3,0,1,1,1,Credit Card,0,Digital Goods,0
+2329.11,12,1,0,1,0,Debit Card,0,Travel,1
+2196.23,25,0,0,0,0,Debit Card,0,Electronics,0
+7853.33,14,0,0,1,1,Credit Card,1,Food,0
+7027.3,16,1,1,1,0,UPI,0,Digital Goods,1
+2231.65,5,1,1,1,0,Credit Card,0,Digital Goods,1
+651.0,10,1,1,0,1,Credit Card,1,Electronics,1
+4180.76,1,0,1,1,0,Debit Card,0,Food,1
+771.58,6,0,1,0,0,Debit Card,0,Food,1
+1186.74,12,0,1,1,0,UPI,0,Food,1
+4048.79,4,0,0,1,0,Debit Card,1,Food,1
+4447.26,12,1,0,1,0,Debit Card,0,Fashion,1
+1618.9,24,0,1,1,0,Credit Card,0,Travel,1
+3501.45,18,1,1,1,0,Credit Card,1,Food,1
+4840.38,22,1,1,1,0,Credit Card,0,Electronics,1
+19829.34,23,0,1,1,0,Credit Card,0,Food,1
+7229.84,14,1,1,1,0,Credit Card,0,Fashion,1
+1648.27,9,0,0,0,0,UPI,0,Food,0
+2179.52,2,0,1,1,1,Credit Card,0,Digital Goods,1
+4685.33,21,1,1,1,0,Debit Card,1,Food,1
+7818.11,17,1,1,1,0,UPI,0,Digital Goods,1
+3382.21,12,1,1,1,0,Credit Card,0,Food,1
+3086.72,12,1,0,1,0,UPI,0,Digital Goods,1
+14411.87,2,0,1,1,0,Credit Card,1,Fashion,1
+3561.03,21,0,1,1,0,UPI,1,Food,0
+472.56,20,0,1,0,0,Credit Card,0,Food,0
+50000.0,23,0,1,1,0,Credit Card,0,Electronics,1
+2463.87,20,1,1,1,0,UPI,0,Fashion,1
+2152.71,6,0,1,1,0,Credit Card,1,Digital Goods,0
+4940.49,27,1,1,0,0,Debit Card,1,Electronics,1
+3866.22,4,0,1,1,0,UPI,0,Food,1
+7934.13,15,1,1,1,0,UPI,0,Digital Goods,1
+3791.7,29,0,1,1,0,Credit Card,1,Electronics,1
+6728.23,20,1,1,1,0,Credit Card,0,Fashion,1
+1597.3,21,1,1,1,0,Credit Card,0,Electronics,1
+336.23,25,1,1,0,0,Credit Card,1,Electronics,1
+5044.22,1,1,1,1,0,UPI,0,Electronics,1
+1215.12,27,0,1,1,1,Debit Card,0,Travel,1
+717.94,21,1,1,1,2,Debit Card,0,Digital Goods,0
+4029.88,6,1,1,0,0,UPI,0,Digital Goods,1
+3926.82,20,0,1,1,0,UPI,1,Travel,1
+5614.91,27,1,1,1,0,Credit Card,1,Digital Goods,1
+9982.05,18,1,1,0,0,UPI,0,Travel,1
+2870.5,10,0,1,1,1,Debit Card,1,Electronics,1
+688.65,16,1,0,1,1,Debit Card,0,Travel,1
+7515.54,23,1,1,1,0,UPI,0,Travel,1
+6368.65,26,0,0,1,1,Debit Card,0,Digital Goods,1
+1187.65,20,1,1,0,0,Debit Card,0,Food,1
+22767.7,13,1,0,1,0,UPI,0,Fashion,1
+1533.1,2,0,0,1,0,UPI,1,Food,0
+9496.24,22,1,1,0,0,UPI,0,Fashion,1
+6982.31,24,1,1,0,0,Credit Card,0,Digital Goods,1
+1267.01,2,1,0,1,1,UPI,0,Fashion,0
+2139.96,5,1,1,1,0,UPI,0,Food,1
+6381.98,25,1,1,0,0,Credit Card,0,Fashion,1
+9886.97,17,1,0,1,0,Credit Card,0,Fashion,0
+1724.34,25,0,1,1,0,UPI,1,Electronics,1
+1818.7,29,1,0,1,1,UPI,0,Digital Goods,1
+968.46,27,1,1,1,0,Credit Card,0,Food,1
+12582.63,14,1,0,0,0,Debit Card,1,Fashion,1
+8483.24,1,0,0,1,0,Credit Card,1,Fashion,0
+3095.69,2,1,0,1,1,UPI,1,Electronics,1
+959.34,16,0,0,1,0,Debit Card,0,Travel,0
+2925.5,4,0,1,0,0,Credit Card,0,Food,0
+3454.88,6,1,1,1,0,Debit Card,0,Fashion,0
+5598.42,15,0,1,1,0,Debit Card,0,Fashion,1
+567.67,20,0,1,0,0,Credit Card,0,Electronics,1
+7048.68,6,1,1,1,0,UPI,0,Travel,1
+2626.5,6,1,1,1,0,Debit Card,0,Fashion,1
+9243.92,28,1,0,0,0,Credit Card,0,Fashion,0
+6051.23,25,0,1,0,0,UPI,0,Digital Goods,0
+1247.84,18,1,0,0,0,Debit Card,1,Fashion,1
+3467.65,13,1,1,1,0,Credit Card,0,Food,0
+2129.18,8,0,1,1,0,Credit Card,0,Fashion,1
+4178.68,10,1,0,0,0,Credit Card,0,Electronics,0
+1522.65,14,0,1,1,1,Credit Card,1,Travel,0
+2185.76,19,1,1,1,0,UPI,0,Digital Goods,1
+2129.21,14,1,1,0,0,Credit Card,0,Electronics,1
+571.96,26,1,0,1,0,UPI,1,Food,1
+5476.68,29,0,1,1,1,Credit Card,0,Fashion,0
+22645.45,19,0,1,1,1,Credit Card,1,Digital Goods,1
+2279.45,8,0,1,1,0,Credit Card,0,Food,0
+5320.23,9,0,1,1,1,Credit Card,0,Fashion,0
+2316.8,6,1,1,1,0,UPI,1,Electronics,1
+291.99,16,1,1,1,2,Credit Card,0,Digital Goods,1
+1310.7,21,1,1,1,0,Credit Card,0,Fashion,1
+17412.81,23,0,0,1,1,UPI,0,Electronics,0
+31274.46,20,0,1,1,0,Credit Card,0,Fashion,1
+3461.32,11,0,1,0,0,Credit Card,0,Fashion,0
+1509.42,28,1,0,1,0,Credit Card,0,Fashion,1
+7726.91,28,0,0,1,3,Debit Card,0,Travel,0
+1368.66,1,1,1,1,0,UPI,0,Travel,1
+4640.61,5,0,1,1,0,UPI,0,Electronics,1
+3528.82,9,1,1,0,1,UPI,1,Electronics,1
+1605.92,6,1,1,1,0,UPI,0,Travel,1
+6325.64,8,1,0,0,0,Credit Card,1,Fashion,1
+3279.71,11,0,0,1,0,UPI,0,Fashion,0
+19972.97,22,1,1,1,1,Debit Card,0,Digital Goods,1
+10791.75,2,0,1,1,0,Credit Card,0,Food,0
+3779.97,7,0,1,0,0,UPI,0,Food,1
+959.73,22,0,1,1,0,UPI,1,Digital Goods,0
+1306.74,6,0,0,1,0,UPI,0,Digital Goods,1
+10066.04,24,0,1,1,1,UPI,1,Digital Goods,1
+7784.58,2,0,0,1,0,UPI,0,Food,0
+1130.59,4,1,1,0,1,Credit Card,0,Fashion,1
+3682.02,1,1,1,1,0,UPI,0,Digital Goods,1
+1617.5,27,1,1,1,0,UPI,0,Electronics,1
+1117.06,4,1,1,1,0,UPI,0,Travel,1
+631.12,12,1,1,1,0,Credit Card,0,Fashion,1
+3039.86,26,1,0,1,0,Debit Card,0,Electronics,0
+3310.84,28,1,1,1,0,UPI,1,Digital Goods,1
+2343.06,5,0,1,0,0,Credit Card,1,Food,1
+997.25,8,1,0,1,0,Debit Card,0,Food,1
+4623.21,21,1,1,0,0,Debit Card,1,Electronics,0
+1966.51,5,0,1,1,1,UPI,0,Fashion,0
+6916.79,8,1,0,1,0,Debit Card,0,Food,1
+4328.36,21,0,1,0,0,Debit Card,0,Food,1
+2214.63,13,1,1,1,0,Credit Card,1,Electronics,0
+8609.87,2,1,1,1,0,UPI,0,Food,1
+1650.32,13,0,1,1,0,Credit Card,0,Travel,1
+1736.01,11,0,1,1,1,UPI,1,Digital Goods,1
+3686.83,16,1,1,0,0,UPI,0,Travel,0
+7286.85,5,1,0,1,0,Credit Card,0,Travel,1
+2895.97,29,1,1,1,0,Debit Card,0,Electronics,1
+3913.61,27,1,1,1,0,UPI,0,Electronics,0
+4564.86,2,0,0,1,0,UPI,1,Digital Goods,0
+2527.82,10,1,1,0,0,Debit Card,0,Fashion,0
+4513.19,16,1,1,0,0,UPI,0,Fashion,1
+4352.28,20,1,1,1,0,Debit Card,0,Fashion,1
+654.74,21,1,0,0,0,Debit Card,0,Fashion,1
+12839.23,6,0,1,0,0,Credit Card,0,Food,0
+14886.91,23,0,1,1,0,Credit Card,0,Digital Goods,0
+4073.25,15,1,1,0,1,Debit Card,0,Travel,0
+9863.01,19,1,0,0,0,UPI,0,Digital Goods,0
+4043.45,4,0,0,1,0,Credit Card,0,Food,0
+7774.45,6,0,0,1,0,Credit Card,0,Digital Goods,0
+9587.23,5,1,1,1,0,Credit Card,0,Food,1
+2344.21,21,1,1,1,0,UPI,0,Fashion,1
+5658.57,1,0,1,1,0,Credit Card,0,Fashion,0
+14119.76,23,0,1,0,0,UPI,0,Electronics,0
+10568.67,15,0,1,1,2,Debit Card,0,Digital Goods,0
+16500.29,20,0,0,1,0,Credit Card,1,Digital Goods,0
+15323.83,19,1,0,1,0,Credit Card,0,Fashion,1
+6544.77,14,1,1,0,0,UPI,0,Travel,1
+1417.43,27,1,1,0,0,UPI,0,Electronics,0
+6674.18,29,0,1,1,0,UPI,0,Fashion,0
+9075.81,29,0,1,1,0,Credit Card,0,Food,0
+8546.06,10,0,1,1,1,Credit Card,0,Digital Goods,0
+2026.5,21,0,1,1,0,Debit Card,1,Electronics,1
+7699.12,19,0,1,1,0,UPI,0,Fashion,0
+2096.0,19,1,1,1,0,Debit Card,1,Digital Goods,0
+7527.48,4,1,1,1,0,Credit Card,0,Food,1
+24974.07,2,0,1,0,1,Debit Card,1,Digital Goods,1
+1405.63,12,1,1,1,0,UPI,0,Electronics,1
+2431.18,29,0,0,1,0,Credit Card,1,Food,0
+3889.93,18,0,1,1,0,Credit Card,0,Electronics,0
+13194.91,7,1,1,1,0,UPI,0,Digital Goods,1
+50000.0,21,0,0,0,1,Credit Card,0,Electronics,1
+5873.67,11,1,1,0,0,UPI,0,Travel,1
+4025.18,11,0,1,1,0,Debit Card,0,Electronics,1
+3091.52,18,0,0,1,1,Debit Card,0,Travel,1
+561.72,22,0,1,1,0,Credit Card,0,Digital Goods,1
+3576.1,16,1,0,1,0,Credit Card,0,Digital Goods,1
+4169.61,4,1,1,0,0,Credit Card,0,Electronics,1
+14163.51,7,0,1,1,1,UPI,1,Food,1
+449.55,14,0,0,1,0,Credit Card,0,Food,0
+3285.56,13,0,1,1,1,Credit Card,0,Food,1
+4432.47,1,1,1,1,0,Debit Card,0,Electronics,1
+1021.94,23,1,0,1,1,Credit Card,1,Fashion,1
+12230.76,4,0,1,1,0,Credit Card,0,Food,1
+4185.31,15,0,0,1,0,Debit Card,0,Fashion,0
+6450.96,7,0,1,1,0,UPI,1,Electronics,0
+3024.92,14,1,0,1,0,UPI,0,Fashion,1
+2519.81,4,1,1,1,0,Debit Card,1,Fashion,1
+695.89,28,0,1,1,0,Debit Card,0,Food,0
+7084.86,6,1,1,1,0,Credit Card,0,Travel,1
+9918.14,11,1,1,0,1,Credit Card,1,Food,1
+6420.53,10,1,1,1,1,UPI,0,Travel,1
+1558.39,19,0,1,0,1,Debit Card,0,Electronics,0
+1834.03,19,1,1,1,0,UPI,1,Food,1
+990.95,13,0,1,1,0,Debit Card,0,Food,1
+2793.74,29,1,1,1,0,Debit Card,1,Travel,1
+14302.69,16,1,1,1,0,UPI,0,Travel,1
+6748.94,2,1,1,1,0,Credit Card,0,Food,1
+1741.02,2,0,1,1,0,UPI,0,Travel,1
+801.88,1,1,1,1,0,Credit Card,1,Digital Goods,1
+4517.89,22,0,1,1,0,Credit Card,0,Digital Goods,0
+5551.22,28,1,1,0,0,UPI,1,Electronics,1
+2776.31,1,1,1,1,1,Credit Card,0,Electronics,1
+2445.26,12,0,1,1,0,Debit Card,0,Electronics,1
+2041.71,2,1,0,1,1,UPI,1,Digital Goods,0
+2773.06,26,1,0,0,0,Credit Card,0,Food,1
+1316.56,10,0,1,1,0,UPI,0,Food,1
+4421.04,9,1,0,1,0,Debit Card,0,Fashion,1
+5288.39,24,0,0,1,0,Debit Card,1,Travel,0
+4516.78,22,0,1,1,0,UPI,0,Digital Goods,0
+3953.52,21,1,1,1,0,Debit Card,0,Food,1
+12805.84,16,0,1,1,1,Credit Card,0,Fashion,1
+2654.73,3,1,1,1,0,Debit Card,1,Fashion,1
+3559.76,28,1,1,0,0,Debit Card,0,Fashion,0
+20400.84,4,0,1,1,0,Debit Card,0,Fashion,0
+845.18,8,1,1,0,0,UPI,1,Travel,1
+461.68,2,0,1,1,0,Debit Card,0,Food,1
+5789.99,18,0,1,0,0,Debit Card,0,Digital Goods,1
+2799.66,1,1,1,1,0,Credit Card,1,Fashion,1
+23590.92,4,0,1,1,0,UPI,0,Digital Goods,1
+9164.37,4,1,1,1,0,UPI,0,Digital Goods,1
+7453.53,22,0,1,1,0,Credit Card,0,Fashion,0
+7882.93,5,1,1,1,0,UPI,0,Fashion,1
+1257.64,6,0,1,0,0,Debit Card,1,Fashion,1
+3861.45,16,1,0,1,0,Credit Card,0,Travel,1
+27196.42,28,1,1,1,1,UPI,0,Travel,1
+1000.73,8,1,0,0,0,UPI,0,Electronics,1
+3355.51,17,1,0,1,0,UPI,0,Digital Goods,1
+1233.72,22,0,0,1,1,UPI,1,Digital Goods,0
+6383.36,3,0,1,1,0,Credit Card,0,Electronics,1
+8724.6,15,0,1,1,0,Credit Card,1,Travel,1
+1375.45,6,0,1,1,0,Credit Card,0,Fashion,1
+3451.69,8,1,1,1,1,Credit Card,0,Travel,1
+13485.55,26,1,1,0,0,Credit Card,0,Digital Goods,0
+3796.08,21,0,1,0,0,UPI,1,Electronics,1
+1233.61,26,1,1,0,1,Credit Card,1,Digital Goods,1
+5490.58,5,1,1,1,0,Credit Card,0,Digital Goods,1
+24693.38,6,0,0,0,0,Credit Card,1,Digital Goods,0
+878.5,23,0,1,0,1,Credit Card,0,Digital Goods,0
+2236.46,22,0,1,1,0,Credit Card,0,Digital Goods,1
+2605.68,3,1,1,0,0,Debit Card,0,Electronics,1
+5786.06,24,0,1,1,0,Debit Card,0,Food,0
+4679.85,18,1,1,0,0,Credit Card,1,Travel,1
+6252.25,11,0,0,0,1,UPI,0,Digital Goods,1
+22356.43,12,1,1,1,1,Credit Card,1,Food,1
+3326.17,6,0,1,0,0,Debit Card,0,Food,1
+1507.53,3,1,1,1,0,Credit Card,0,Fashion,1
+3809.33,10,0,1,0,0,UPI,0,Electronics,0
+15717.68,7,1,0,0,1,Credit Card,0,Digital Goods,1
+2927.36,22,0,1,1,0,Credit Card,0,Digital Goods,0
+6847.04,25,1,0,1,0,UPI,1,Fashion,1
+4024.32,19,0,1,1,0,Credit Card,0,Travel,0
+2905.41,19,1,1,0,0,Credit Card,0,Digital Goods,0
+2319.51,26,1,0,1,0,Credit Card,0,Fashion,1
+8647.97,1,0,1,1,0,Credit Card,0,Travel,1
+2100.26,28,1,1,1,1,UPI,0,Electronics,1
+2850.52,1,0,1,1,1,Credit Card,1,Food,1
+643.66,7,0,1,0,0,Debit Card,0,Electronics,1
+2782.03,25,1,1,1,0,Credit Card,1,Travel,1
+2875.89,14,1,0,1,1,Debit Card,0,Fashion,1
+3956.95,1,0,1,1,0,Credit Card,1,Food,1
+2007.31,20,0,1,1,0,Credit Card,0,Digital Goods,1
+937.66,19,1,1,1,0,Credit Card,1,Electronics,1
+4848.57,24,0,1,1,0,Credit Card,0,Digital Goods,1
+5961.3,9,0,1,1,0,Credit Card,0,Electronics,0
+1703.99,17,0,1,1,0,UPI,0,Digital Goods,1
+4264.16,16,0,1,1,0,UPI,1,Food,1
+2114.33,13,0,1,0,1,Credit Card,1,Digital Goods,1
+2792.84,8,1,1,1,1,UPI,1,Travel,1
+3827.13,17,0,0,1,0,Credit Card,0,Electronics,1
+1926.46,6,1,0,1,0,UPI,0,Digital Goods,1
+1215.84,26,1,1,1,0,UPI,0,Electronics,1
+22462.74,6,0,1,1,1,Credit Card,1,Digital Goods,0
+2827.02,9,1,1,0,0,UPI,0,Digital Goods,1
+4163.62,6,1,1,1,0,UPI,0,Fashion,1
+12343.43,2,1,1,0,0,Credit Card,1,Travel,1
+10175.0,25,1,1,1,1,UPI,1,Travel,0
+1276.19,12,0,1,1,0,UPI,1,Electronics,0
+2053.18,7,1,1,1,0,UPI,0,Travel,1
+50000.0,7,1,1,1,0,Credit Card,1,Food,1
+3700.4,11,0,0,1,0,Debit Card,0,Digital Goods,0
+7759.73,13,0,1,1,0,Debit Card,0,Travel,1
+4587.28,26,0,1,0,0,UPI,0,Fashion,1
+2725.39,24,1,1,1,0,Credit Card,0,Electronics,1
+3602.03,27,1,1,1,0,Debit Card,0,Fashion,1
+4484.08,13,1,1,1,0,Debit Card,0,Food,1
+4808.75,8,1,0,0,0,Credit Card,0,Electronics,1
+254.55,4,0,1,1,0,Credit Card,0,Travel,1
+2039.19,4,0,1,0,0,Credit Card,0,Electronics,1
+1551.08,18,1,0,1,0,Debit Card,0,Food,1
+534.66,26,0,1,1,0,Debit Card,1,Fashion,1
+1369.31,19,1,1,1,0,Debit Card,0,Food,1
+373.17,10,1,1,1,0,Debit Card,1,Electronics,1
+20172.36,7,1,0,1,0,Debit Card,1,Digital Goods,1
+2054.05,21,0,1,0,1,Credit Card,1,Digital Goods,0
+2041.57,18,1,1,1,0,Credit Card,0,Electronics,1
+7111.86,22,0,0,0,1,Credit Card,0,Fashion,0
+2654.55,18,1,1,1,2,Credit Card,0,Food,1
+6495.23,2,1,0,1,0,UPI,0,Digital Goods,1
+2392.7,28,0,0,1,0,Credit Card,0,Travel,1
+3078.01,3,0,1,1,0,Debit Card,0,Travel,1
+2370.56,11,0,1,1,0,UPI,0,Electronics,0
+8060.13,29,0,0,1,0,Debit Card,1,Electronics,1
+1936.17,24,0,1,0,0,Credit Card,0,Food,0
+272.93,27,1,1,1,0,UPI,0,Electronics,0
+3578.69,1,0,0,1,0,UPI,1,Digital Goods,1
+8923.21,28,1,1,1,0,Credit Card,0,Food,1
+1629.01,5,0,1,1,0,Credit Card,0,Electronics,1
+1156.63,17,0,1,0,0,Credit Card,0,Travel,1
+1818.69,2,0,0,1,0,UPI,1,Travel,0
+326.99,15,1,1,1,1,Debit Card,0,Digital Goods,1
+1187.24,29,1,1,1,0,Credit Card,0,Digital Goods,1
+1563.63,2,0,0,1,0,Debit Card,0,Travel,1
+6754.63,5,0,0,0,0,Credit Card,0,Digital Goods,0
+2090.94,3,1,1,1,0,Credit Card,0,Food,1
+6866.1,6,1,1,0,0,Credit Card,1,Digital Goods,1
+860.57,2,0,1,0,0,UPI,0,Fashion,0
+40014.31,2,1,0,1,0,Debit Card,0,Digital Goods,1
+1398.23,2,1,1,1,0,UPI,0,Fashion,1
+1179.85,9,1,0,1,0,Debit Card,0,Travel,0
+12472.88,4,0,0,1,0,Debit Card,1,Fashion,0
+1092.76,16,1,0,1,0,Credit Card,0,Fashion,1
+4411.74,6,0,0,1,0,Debit Card,1,Travel,0
+50000.0,17,0,1,1,1,Credit Card,0,Fashion,1
+1971.83,23,1,1,1,1,UPI,1,Electronics,0
+483.29,11,0,0,1,1,UPI,0,Fashion,1
+3502.38,13,1,0,1,0,Credit Card,0,Electronics,1
+1699.89,18,1,1,1,0,Credit Card,0,Travel,1
+1310.9,19,0,1,1,0,Credit Card,0,Electronics,0
+5580.54,8,0,1,0,1,UPI,1,Travel,0
+9231.73,23,1,1,1,0,Debit Card,0,Food,1
+5044.17,20,1,1,1,0,Debit Card,0,Electronics,0
+4733.17,15,1,1,1,0,Debit Card,0,Digital Goods,1
+731.84,5,1,0,1,0,Credit Card,0,Digital Goods,0
+1957.44,9,0,1,1,0,UPI,0,Food,1
+7465.21,16,0,1,0,0,Credit Card,1,Digital Goods,1
+1086.32,2,1,1,1,0,Credit Card,1,Fashion,1
+5207.85,22,0,1,1,1,Credit Card,0,Electronics,1
+1319.04,20,0,1,1,0,Credit Card,0,Digital Goods,0
+8143.16,5,0,1,1,0,Credit Card,0,Digital Goods,1
+1328.68,25,1,1,1,0,Credit Card,0,Food,1
+7164.18,24,0,1,1,0,Debit Card,0,Electronics,0
+7149.34,3,0,1,1,0,Debit Card,1,Digital Goods,0
+3425.05,29,0,1,1,1,UPI,0,Food,0
+2776.92,17,1,1,1,0,UPI,0,Food,1
+941.79,1,1,1,1,0,Debit Card,0,Food,1
+848.26,11,0,0,1,0,Credit Card,0,Fashion,1
+27714.36,22,1,1,1,0,Credit Card,1,Travel,0
+1426.31,28,1,1,1,0,Credit Card,0,Electronics,1
+478.3,19,1,0,1,0,UPI,0,Fashion,1
+4418.08,15,0,1,1,0,UPI,0,Food,0
+1948.7,14,0,1,1,1,Credit Card,0,Food,1
+3617.49,25,1,0,0,1,Credit Card,1,Fashion,0
+3211.89,24,0,1,1,0,Credit Card,1,Travel,1
+968.14,10,1,1,0,0,Debit Card,0,Electronics,1
+423.08,12,1,1,1,0,UPI,0,Fashion,1
+3084.29,27,1,1,1,0,Credit Card,1,Food,0
+10653.07,17,1,1,0,1,Credit Card,0,Digital Goods,1
+2221.66,26,0,1,1,0,Debit Card,0,Food,1
+4083.02,4,1,1,1,0,Debit Card,1,Electronics,1
+6942.35,28,0,1,1,0,Debit Card,1,Travel,1
+1790.95,18,0,1,1,0,Credit Card,0,Food,1
+1481.68,10,1,1,0,0,UPI,0,Fashion,0
+1829.27,19,1,1,1,1,UPI,1,Electronics,1
+7753.9,9,0,1,1,0,Credit Card,0,Food,1
+5324.59,17,0,0,1,0,Debit Card,1,Travel,1
+4213.72,13,0,1,0,0,Credit Card,1,Digital Goods,0
+919.05,8,0,1,1,0,Debit Card,1,Fashion,1
+21581.49,19,1,1,0,0,Credit Card,0,Food,1
+3470.1,12,0,0,1,0,Credit Card,1,Food,1
+2531.55,21,0,1,1,0,Debit Card,0,Digital Goods,1
+6391.35,7,1,0,0,0,Credit Card,0,Food,1
+6391.67,27,1,1,0,0,UPI,1,Travel,1
+2919.56,14,0,1,1,0,Credit Card,0,Digital Goods,0
+6339.47,19,1,0,1,1,Credit Card,0,Electronics,1
+23067.27,7,0,1,1,0,Credit Card,0,Food,1
+5881.12,16,0,1,1,1,UPI,1,Food,1
+2632.15,3,0,0,1,0,Credit Card,0,Digital Goods,1
+1140.49,19,0,1,1,0,UPI,1,Electronics,1
+1125.11,29,0,1,1,0,Debit Card,0,Food,0
+1487.71,9,0,1,0,2,UPI,1,Digital Goods,0
+1772.62,23,1,0,1,0,Debit Card,0,Electronics,1
+946.21,26,1,1,1,0,Credit Card,0,Food,0
+2450.87,6,0,1,1,0,Credit Card,0,Travel,1
+2826.37,23,1,1,1,0,Debit Card,0,Digital Goods,1
+1154.22,8,1,1,1,1,Debit Card,0,Food,1
+586.71,27,0,1,0,0,Debit Card,0,Digital Goods,0
+8198.0,16,1,1,1,0,Debit Card,1,Electronics,1
+6864.88,22,0,1,0,0,UPI,1,Digital Goods,1
+2373.59,16,0,1,1,0,Credit Card,1,Fashion,1
+3404.7,20,1,1,0,0,Debit Card,0,Travel,1
+3804.25,4,0,0,1,0,UPI,0,Digital Goods,0
+6711.48,17,0,1,0,0,UPI,1,Food,1
+5771.35,4,0,1,1,0,UPI,0,Fashion,1
+2871.8,20,1,1,0,0,Credit Card,0,Electronics,1
+2107.22,11,1,1,0,0,UPI,1,Electronics,0
+1537.86,26,1,1,1,0,Credit Card,0,Fashion,1
+5634.0,26,1,1,1,0,UPI,0,Digital Goods,1
+19893.24,13,1,1,1,1,Credit Card,0,Fashion,1
+3645.51,27,0,0,0,1,Debit Card,1,Electronics,0
+7335.07,16,0,0,1,1,Credit Card,0,Digital Goods,1
+10362.68,13,1,1,1,0,Debit Card,0,Digital Goods,1
+3171.58,8,1,0,1,0,UPI,0,Travel,0
+524.44,26,0,1,1,0,Credit Card,0,Digital Goods,1
+1728.0,25,0,1,1,0,Debit Card,0,Food,0
+9215.63,19,1,1,1,0,Credit Card,0,Travel,1
+2781.85,10,1,1,1,1,Credit Card,1,Travel,1
+10325.98,19,1,0,0,0,UPI,1,Digital Goods,0
+1430.42,28,1,1,1,0,Credit Card,0,Electronics,1
+5846.59,12,0,1,1,0,Credit Card,0,Digital Goods,1
+1595.72,2,0,0,0,1,Credit Card,0,Electronics,0
+1681.88,15,0,1,1,0,Credit Card,1,Food,1
+6663.16,13,1,1,1,0,Credit Card,0,Fashion,1
+6373.6,17,0,0,1,0,Credit Card,1,Fashion,1
+853.9,4,1,0,1,1,Debit Card,0,Travel,0
+7114.54,25,1,1,1,0,Credit Card,0,Fashion,1
+3728.58,24,0,1,0,0,Credit Card,0,Food,1
+6761.57,9,1,0,1,1,Credit Card,0,Digital Goods,1
+7325.95,5,0,1,1,0,Debit Card,0,Fashion,0
+4306.53,18,0,0,0,0,UPI,0,Travel,0
+9407.44,9,0,1,0,0,Credit Card,0,Digital Goods,1
+2240.86,3,0,1,0,0,UPI,0,Fashion,1
+8776.67,20,1,1,1,0,UPI,0,Fashion,1
+393.97,29,1,0,1,1,Debit Card,0,Electronics,0
+2976.2,6,1,1,1,1,Credit Card,0,Fashion,1
+1852.62,21,0,0,1,0,UPI,0,Fashion,1
+3641.57,18,1,1,1,0,UPI,0,Travel,1
+14275.23,1,0,0,1,0,Debit Card,1,Food,0
+13795.42,23,0,1,1,0,Credit Card,0,Electronics,1
+9636.1,9,1,1,1,0,Debit Card,0,Digital Goods,1
+3927.74,5,0,1,0,0,Credit Card,0,Fashion,0
+540.72,6,0,1,1,0,Credit Card,0,Electronics,1
+4787.49,28,1,0,0,1,Debit Card,1,Travel,0
+4406.61,23,0,1,1,2,UPI,1,Electronics,1
+2118.75,26,1,1,0,0,UPI,0,Digital Goods,1
+2115.09,19,1,1,1,0,Credit Card,0,Fashion,1
+19197.6,29,1,1,1,0,Credit Card,0,Digital Goods,1
+11041.88,1,1,1,1,0,Credit Card,0,Travel,1
+2224.68,7,0,1,0,0,Credit Card,0,Travel,0
+8172.79,10,0,1,0,0,Debit Card,0,Food,1
+5678.62,17,0,1,0,0,Debit Card,0,Fashion,0
+3221.62,23,0,0,1,0,UPI,0,Travel,0
+1703.53,6,0,0,0,0,Credit Card,0,Food,0
+3883.48,13,0,1,1,0,Credit Card,0,Fashion,1
+2814.52,4,0,1,1,1,UPI,0,Fashion,1
+533.69,8,1,1,1,0,UPI,0,Electronics,1
+3311.18,13,0,1,1,0,Debit Card,0,Travel,1
+18457.87,21,1,1,1,0,UPI,0,Digital Goods,1
+1042.38,28,0,1,0,1,Credit Card,0,Electronics,0
+6046.05,12,0,1,1,0,UPI,1,Travel,1
+7829.44,20,1,0,1,0,Debit Card,0,Electronics,1
+2016.59,4,1,0,1,0,Credit Card,0,Travel,1
+6726.32,9,1,0,0,0,Debit Card,0,Travel,1
+27488.72,12,0,1,1,0,Debit Card,1,Fashion,0
+5392.44,4,1,0,1,0,Debit Card,0,Travel,1
+4108.75,10,0,1,1,0,Credit Card,0,Digital Goods,1
+3603.05,26,0,1,1,0,UPI,0,Fashion,1
+9856.84,16,0,0,0,0,Credit Card,0,Travel,0
+5485.1,21,1,1,1,1,Debit Card,0,Fashion,1
+6250.32,22,1,0,1,1,UPI,1,Fashion,1
+1897.22,26,0,1,1,0,Credit Card,1,Fashion,1
+2289.33,26,1,0,1,0,Debit Card,1,Fashion,0
+8576.29,19,0,1,1,0,Credit Card,0,Travel,1
+33004.33,1,1,1,1,0,Debit Card,0,Food,1
+12314.89,11,1,1,1,0,UPI,0,Travel,1
+7809.02,2,1,1,1,1,UPI,0,Travel,1
+1606.28,5,1,1,1,0,UPI,0,Fashion,1
+6196.51,18,0,1,1,0,UPI,1,Fashion,0
+1974.64,7,1,1,1,0,Debit Card,0,Food,1
+12754.36,2,1,0,1,0,UPI,1,Fashion,0
+2199.23,3,1,1,1,0,Debit Card,0,Fashion,1
+425.02,12,0,1,1,0,UPI,1,Fashion,0
+47519.35,9,1,0,0,2,UPI,0,Fashion,1
+5331.18,18,0,1,1,1,Credit Card,0,Electronics,1
+2929.25,6,0,1,1,1,UPI,1,Electronics,1
+5791.3,1,0,1,1,0,Debit Card,0,Electronics,1
+663.02,3,1,1,1,0,Credit Card,1,Fashion,1
+2462.9,16,1,1,0,0,Credit Card,0,Fashion,1
+1353.57,26,1,1,1,0,Credit Card,0,Electronics,1
+1365.15,18,1,0,0,1,Debit Card,1,Electronics,1
+1613.07,28,0,1,1,1,Credit Card,0,Fashion,0
+7450.57,2,0,1,1,0,Credit Card,0,Electronics,1
+4194.95,10,1,1,1,0,Debit Card,0,Travel,1
+3351.54,18,1,1,0,0,Credit Card,1,Fashion,1
+1855.57,24,1,1,0,0,Debit Card,0,Digital Goods,0
+2212.62,19,0,1,1,1,Credit Card,1,Electronics,0
+2152.74,16,1,1,1,0,Debit Card,0,Food,1
+4853.68,13,0,0,1,0,Debit Card,0,Food,1
+6615.75,24,0,1,1,1,Debit Card,0,Food,0
+3792.91,22,0,1,1,0,Debit Card,0,Food,0
+3205.14,23,1,1,0,0,Debit Card,1,Fashion,1
+7968.52,13,0,0,1,2,Credit Card,0,Fashion,1
+8923.43,9,0,1,0,1,Debit Card,0,Fashion,0
+2427.29,18,0,1,0,1,Debit Card,0,Food,0
+2793.61,16,1,0,1,0,Debit Card,1,Food,1
+7338.52,9,0,1,1,1,Credit Card,1,Digital Goods,1
+14665.87,2,1,1,0,0,Debit Card,0,Electronics,1
+9052.14,26,0,1,0,0,Debit Card,0,Food,0
+6641.66,12,1,1,0,0,Credit Card,0,Fashion,0
+5231.11,1,1,1,0,0,Debit Card,0,Travel,0
+1193.89,18,0,1,1,0,Debit Card,0,Electronics,0
+1465.08,23,1,0,0,0,UPI,1,Fashion,0
+4318.17,10,1,0,0,0,Credit Card,0,Food,1
+2579.54,5,1,0,1,0,Debit Card,0,Fashion,0
+5635.75,16,1,1,1,1,UPI,1,Fashion,1
+5312.16,13,0,1,1,0,Credit Card,0,Travel,1
+8700.96,8,1,1,1,0,UPI,0,Electronics,1
+1395.75,4,1,1,1,1,Credit Card,0,Fashion,1
+4366.13,27,1,1,1,1,Credit Card,0,Travel,1
+690.64,21,1,1,1,1,Credit Card,1,Food,1
+2488.82,11,1,1,1,0,Credit Card,0,Travel,1
+9643.88,20,0,1,1,0,Credit Card,1,Travel,1
+1375.54,23,0,1,1,0,UPI,0,Electronics,0
+2950.38,4,1,1,1,0,UPI,0,Travel,1
+1116.67,1,1,1,0,2,UPI,1,Food,0
+4494.21,20,0,0,1,0,Credit Card,0,Travel,0
+27439.05,17,1,1,1,0,Credit Card,0,Fashion,0
+974.51,10,0,0,1,2,UPI,1,Travel,0
+2410.04,12,0,1,1,1,Credit Card,1,Digital Goods,1
+6656.69,19,1,0,1,2,Credit Card,0,Fashion,0
+10483.43,16,0,1,1,0,Credit Card,0,Electronics,1
+5398.55,1,0,0,0,0,UPI,1,Electronics,0
+8278.89,1,0,1,0,0,UPI,0,Electronics,1
+1505.62,9,1,1,0,0,UPI,0,Travel,1
+4227.77,19,0,0,1,0,UPI,0,Electronics,1
+2733.38,10,1,0,1,0,Debit Card,1,Food,1
+1379.69,29,1,0,1,0,Debit Card,0,Food,1
+3098.81,9,1,1,1,0,UPI,0,Electronics,1
+1611.24,18,1,1,0,0,UPI,1,Food,1
+1235.24,2,1,1,1,2,Credit Card,0,Fashion,1
+4188.3,14,0,1,1,0,Credit Card,0,Fashion,1
+23632.69,25,0,1,1,1,Debit Card,0,Electronics,0
+956.78,5,1,0,1,0,UPI,0,Food,1
+1066.81,28,0,1,1,0,Credit Card,0,Digital Goods,0
+4521.41,24,0,1,1,0,Debit Card,0,Digital Goods,1
+725.2,1,1,1,1,0,UPI,1,Travel,1
+1609.27,25,1,1,1,0,UPI,0,Fashion,0
+5805.51,14,1,1,1,0,Debit Card,0,Electronics,1
+1859.03,17,0,0,1,1,UPI,1,Fashion,1
+3390.49,7,0,1,0,0,Credit Card,0,Food,0
+17829.24,6,0,1,1,0,UPI,0,Digital Goods,1
+6375.28,18,0,1,1,0,Credit Card,0,Digital Goods,1
+857.16,26,1,1,1,0,Debit Card,1,Fashion,1
+1912.21,18,1,1,0,0,Credit Card,0,Fashion,1
+19869.54,17,1,1,1,2,UPI,0,Travel,1
+3170.45,17,1,1,1,0,Debit Card,0,Fashion,0
+921.62,15,1,1,0,1,UPI,0,Food,1
+5763.42,1,0,0,1,0,Debit Card,0,Electronics,1
+5886.9,29,1,1,1,1,Credit Card,1,Fashion,0
+22086.6,28,1,1,1,0,Credit Card,0,Food,0
+5463.01,22,1,0,1,0,Credit Card,1,Food,0
+8076.26,19,0,1,0,0,Debit Card,1,Fashion,0
+13046.84,18,0,1,1,0,Credit Card,0,Fashion,1
+718.28,25,1,1,1,1,UPI,1,Food,1
+3101.62,2,0,1,1,0,Credit Card,0,Fashion,0
+2750.59,10,1,1,1,0,UPI,0,Digital Goods,1
+3174.02,19,1,0,1,1,Debit Card,0,Travel,0
+2907.15,10,0,1,1,0,Credit Card,1,Electronics,1
+2244.36,1,1,1,0,1,UPI,0,Electronics,1
+8735.65,26,0,1,0,0,Debit Card,0,Fashion,0
+2151.82,4,0,1,0,0,Debit Card,0,Digital Goods,0
+13278.62,3,1,0,1,0,Credit Card,1,Food,1
+1319.4,1,0,1,0,0,UPI,1,Digital Goods,0
+1881.37,2,1,0,0,0,Credit Card,0,Electronics,0
+377.05,7,1,0,0,0,Credit Card,0,Electronics,1
+766.46,5,1,1,1,0,UPI,0,Electronics,1
+23724.55,13,1,1,1,0,Credit Card,0,Electronics,1
+1029.81,25,0,1,1,0,UPI,1,Food,0
+3846.3,24,1,1,1,0,Credit Card,0,Travel,1
+6899.39,24,0,0,0,0,Debit Card,0,Fashion,0
+5305.4,7,1,1,0,1,Debit Card,0,Electronics,0
+14252.85,6,1,1,1,0,Credit Card,0,Electronics,1
+37627.72,29,0,1,1,0,Credit Card,0,Electronics,1
+2792.81,13,0,1,1,0,UPI,0,Digital Goods,1
+2568.92,10,0,1,0,0,UPI,1,Travel,0
+10014.11,26,1,1,1,0,Debit Card,0,Electronics,1
+1791.46,6,1,1,0,0,Debit Card,0,Food,1
+657.19,10,1,1,1,0,Debit Card,0,Fashion,1
+4781.69,29,1,1,1,0,Debit Card,0,Digital Goods,0
+1772.49,17,1,1,1,0,Debit Card,1,Food,1
+2164.14,14,0,1,1,2,Credit Card,0,Electronics,1
+1821.64,8,0,1,1,0,Credit Card,1,Fashion,1
+2691.33,8,1,0,0,1,Debit Card,0,Electronics,0
+4552.14,26,1,1,1,1,Credit Card,0,Travel,1
+1357.03,19,0,0,1,1,Debit Card,0,Electronics,1
+50000.0,26,1,1,1,0,Debit Card,0,Food,1
+348.79,18,0,0,1,1,Debit Card,0,Food,0
+13185.74,25,1,0,0,0,UPI,0,Electronics,1
+2559.18,16,1,0,1,1,UPI,0,Travel,1
+1683.36,15,1,1,0,1,Credit Card,1,Fashion,0
+2752.8,15,0,1,0,0,UPI,1,Food,0
+9358.49,14,0,1,1,1,Credit Card,0,Food,1
+2355.92,20,1,1,1,0,UPI,0,Food,1
+3057.78,18,0,0,1,1,Debit Card,0,Food,0
+2721.04,14,0,1,0,1,Debit Card,0,Electronics,1
+1452.58,12,1,1,1,0,Debit Card,0,Food,1
+10511.94,26,0,1,1,0,Credit Card,1,Digital Goods,1
+6713.92,4,0,1,1,0,UPI,0,Food,1
+4263.23,17,0,1,1,0,Debit Card,0,Electronics,1
+9658.88,16,0,1,1,0,UPI,1,Fashion,1
+8879.11,11,0,1,1,0,Credit Card,0,Travel,1
+4726.34,7,1,0,0,0,Debit Card,0,Food,0
+2763.38,6,1,0,1,0,Credit Card,0,Fashion,1
+3449.98,13,0,1,0,0,Debit Card,1,Fashion,0
+6043.75,10,1,1,1,0,Debit Card,0,Digital Goods,1
+11605.81,14,0,1,1,0,Credit Card,0,Travel,1
+3549.76,7,1,1,1,1,Debit Card,0,Food,0
+7196.63,19,0,1,1,1,UPI,1,Travel,0
+6501.21,9,1,1,1,0,UPI,0,Digital Goods,1
+784.49,18,0,1,1,0,Credit Card,0,Electronics,0
+941.45,14,1,0,1,0,Credit Card,0,Digital Goods,1
+13869.51,15,1,0,1,0,Debit Card,0,Food,1
+2457.68,12,1,0,1,0,UPI,0,Travel,1
+1419.22,17,1,1,1,1,Debit Card,0,Travel,1
+15278.11,5,1,1,1,1,Credit Card,0,Fashion,0
+885.2,18,1,1,1,0,UPI,0,Digital Goods,1
+12070.37,12,1,1,0,1,Debit Card,0,Digital Goods,1
+6920.9,17,0,1,1,0,Debit Card,1,Electronics,1
+4614.2,10,0,1,1,0,UPI,0,Digital Goods,1
+1389.32,23,1,1,1,0,UPI,0,Digital Goods,1
+7487.12,12,0,1,1,0,UPI,0,Fashion,0
+1630.67,17,0,0,1,0,Credit Card,0,Travel,0
+6014.53,25,1,1,0,0,Credit Card,0,Travel,0
+4247.8,25,0,0,1,0,Debit Card,0,Digital Goods,0
+4342.44,14,0,1,1,0,Debit Card,0,Travel,0
+1358.01,23,0,1,1,0,Debit Card,0,Fashion,0
+935.2,26,1,0,1,0,Credit Card,0,Fashion,1
+2729.65,12,1,0,1,0,Credit Card,0,Food,1
+6288.64,14,1,0,1,0,UPI,0,Digital Goods,0
+2387.89,22,0,1,1,1,Credit Card,1,Fashion,1
+796.16,26,1,1,1,1,UPI,1,Travel,1
+5244.66,4,1,1,1,0,Credit Card,1,Fashion,1
+3887.76,26,1,0,1,0,UPI,1,Travel,1
+3728.89,17,0,0,0,0,Credit Card,0,Electronics,1
+3195.61,2,1,1,0,0,Debit Card,1,Travel,1
+959.05,6,1,1,1,0,Debit Card,1,Food,1
+1711.58,5,0,1,1,0,UPI,0,Fashion,1
+3034.07,5,0,1,1,1,UPI,1,Travel,0
+7538.56,1,1,1,1,0,Debit Card,0,Food,1
+4437.69,11,1,1,0,0,UPI,0,Fashion,1
+4166.08,13,0,1,1,0,Debit Card,0,Travel,1
+28825.75,16,1,1,0,0,Credit Card,1,Food,1
+4698.6,10,0,1,0,0,Debit Card,0,Food,0
+1602.34,4,1,1,1,0,UPI,0,Electronics,1
+4290.74,1,1,0,1,0,UPI,0,Digital Goods,1
+252.43,2,0,0,1,0,Credit Card,0,Electronics,0
+3275.59,15,1,1,0,0,Credit Card,0,Travel,1
+2852.15,28,1,1,1,0,Debit Card,0,Fashion,1
+727.06,28,0,1,1,0,Debit Card,1,Fashion,1
+743.67,1,1,1,0,0,Credit Card,0,Food,1
+7266.92,14,1,0,1,0,Debit Card,0,Food,1
+2610.18,2,1,1,1,0,UPI,0,Fashion,1
+2010.18,9,0,0,1,0,Debit Card,1,Digital Goods,1
+6201.87,13,0,0,0,0,Credit Card,1,Fashion,0
+4604.21,23,0,1,1,0,Credit Card,0,Electronics,1
+7433.16,9,0,1,1,0,Credit Card,0,Fashion,0
+1944.44,11,0,1,0,1,Credit Card,0,Food,1
+3953.18,7,1,1,0,0,Credit Card,1,Electronics,1
+27562.73,10,0,0,1,0,Credit Card,0,Electronics,1
+5276.88,11,1,0,1,0,Credit Card,0,Electronics,1
+2541.25,13,0,1,1,0,Credit Card,0,Digital Goods,1
+7726.99,17,1,1,0,1,Credit Card,0,Electronics,1
+6755.85,29,1,1,0,1,UPI,0,Electronics,0
+24176.59,26,0,0,1,0,Credit Card,0,Fashion,1
+2899.36,6,0,1,1,0,Debit Card,0,Digital Goods,1
+4591.81,6,0,1,0,0,Debit Card,0,Travel,1
+8660.4,5,0,0,0,0,Debit Card,1,Fashion,1
+5475.78,5,1,1,1,0,Credit Card,1,Electronics,1
+2538.75,28,1,1,1,0,UPI,0,Electronics,1
+12695.61,8,1,1,1,0,Credit Card,0,Electronics,1
+445.33,7,0,1,0,0,Debit Card,0,Fashion,1
+3863.93,4,0,1,0,0,Debit Card,0,Fashion,1
+4818.46,1,1,1,1,0,Credit Card,0,Fashion,1
+1001.59,8,1,1,1,1,UPI,0,Travel,0
+5379.63,17,0,1,0,1,Debit Card,1,Food,1
+2544.18,11,1,1,1,0,UPI,0,Fashion,1
+1667.35,11,0,0,1,1,Debit Card,1,Electronics,0
+2334.81,29,0,1,1,1,Debit Card,1,Fashion,1
+20442.63,18,1,1,0,1,Debit Card,0,Food,1
+5976.0,23,0,0,1,1,Credit Card,0,Fashion,0
+422.79,29,1,1,1,0,Credit Card,1,Electronics,1
+5346.84,23,1,1,1,0,UPI,0,Fashion,1
+3810.35,3,1,1,0,0,Debit Card,1,Digital Goods,1
+2066.25,12,1,1,0,0,Credit Card,0,Digital Goods,1
+2974.79,18,1,0,1,0,Credit Card,0,Digital Goods,1
+1365.36,20,1,1,0,0,UPI,0,Digital Goods,0
+5193.35,16,1,1,1,0,Credit Card,0,Food,1
+1982.47,8,0,1,1,1,Debit Card,0,Fashion,1
+2615.38,11,0,0,0,1,Credit Card,0,Travel,0
+1244.23,18,0,1,1,0,Credit Card,1,Food,1
+15382.23,2,1,0,1,0,UPI,1,Food,1
+309.84,13,0,0,0,0,Credit Card,1,Digital Goods,0
+2516.19,14,1,1,0,0,Credit Card,0,Travel,1
+200.0,29,1,1,1,0,Debit Card,0,Electronics,1
+4395.7,3,0,1,1,0,Debit Card,0,Digital Goods,1
+1157.81,13,1,1,1,0,Credit Card,0,Fashion,1
+5134.4,2,1,1,1,0,Credit Card,0,Food,1
+1649.16,1,0,1,0,0,Debit Card,0,Digital Goods,1
+23051.62,10,1,0,1,0,Credit Card,0,Fashion,1
+16941.69,29,0,1,0,0,Debit Card,1,Electronics,0
+1601.25,24,0,1,0,0,UPI,1,Fashion,1
+12222.19,9,1,0,0,1,Credit Card,0,Food,1
+6348.4,25,1,1,1,0,Credit Card,0,Travel,1

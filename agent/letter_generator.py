@@ -1,74 +1,189 @@
 import json
-import os
-# from openai import OpenAI # Uncomment in production
 
-def generate_representment_letter(dispute_data: dict) -> str:
-    """
-    Template-Grounded Generation for Visa 10.4.
-    Enforces strict structural constraints on the LLM to prevent hallucination.
-    """
-    if dispute_data.get("reason_code") != "Visa_10.4":
-        return "Manual review required. Reason code outside automated scope."
 
-    # 1. Deterministic Fact Extraction
-    # We strictly bound what the LLM is allowed to know about the case.
+SUPPORTED_REASON_CODE = "Visa_10.4"
+
+
+def _format_evidence(facts: dict) -> list[str]:
+    """
+    Convert verified transaction facts into human-readable evidence lines.
+
+    Only evidence that is actually present is described as available.
+    Missing evidence is not represented as positive evidence.
+    """
+
+    evidence = []
+
+    if facts["address_verification_match"]:
+        evidence.append("Address Verification System (AVS): MATCHED")
+
+    if facts["device_fingerprint_match"]:
+        evidence.append("Device Fingerprint Match: MATCHED")
+
+    if facts["delivery_signature_present"]:
+        evidence.append("Delivery Signature: PRESENT")
+
+    return evidence
+
+
+def _build_evidence_summary(facts: dict) -> str:
+    """
+    Build a concise factual summary from verified evidence.
+    """
+
+    statements = []
+
+    if facts["address_verification_match"]:
+        statements.append(
+            "The transaction record contains an AVS match."
+        )
+
+    if facts["device_fingerprint_match"]:
+        statements.append(
+            "The transaction record contains a matching device fingerprint."
+        )
+
+    if facts["delivery_signature_present"]:
+        statements.append(
+            "The merchant record contains a delivery signature."
+        )
+
+    if not statements:
+        return (
+            "No positive supporting evidence was identified from the "
+            "available transaction fields."
+        )
+
+    return " ".join(statements)
+
+
+def _build_shap_context(shap_factors: list | None) -> str:
+    """
+    SHAP values are model explanations, not representment evidence.
+
+    They are therefore kept separate from the factual evidence section.
+    """
+
+    if not shap_factors:
+        return ""
+
+    top_factors = shap_factors[:4]
+
+    lines = []
+
+    for factor in top_factors:
+        feature = factor.get("feature", "unknown")
+        impact = float(factor.get("impact", 0.0))
+        direction = factor.get("direction", "+")
+
+        lines.append(
+            f"- {feature}: impact={impact:.3f}, direction={direction}"
+        )
+
+    return (
+        "\n\nMODEL EXPLANATION — NOT REPRESENTMENT EVIDENCE\n"
+        "-------------------------------------------------\n"
+        + "\n".join(lines)
+    )
+
+
+def generate_representment_letter(
+    dispute_data: dict,
+    shap_factors: list | None = None
+) -> str:
+    """
+    Generate an evidence-grounded representment draft for Visa 10.4.
+
+    Important design principles:
+    - Only Visa 10.4 is supported.
+    - Only supplied transaction facts are used as evidence.
+    - SHAP explanations are kept separate from factual evidence.
+    - The generator does not claim that any individual signal guarantees
+      representment eligibility.
+    - No unsupported evidence is invented.
+    """
+
+    if dispute_data.get("reason_code") != SUPPORTED_REASON_CODE:
+        return (
+            "Manual review required. "
+            "Reason code outside automated scope."
+        )
+
     verified_facts = {
         "dispute_id": dispute_data.get("dispute_id"),
-        "amount": f"INR {dispute_data.get('amount_inr')}",
-        "delivery_signature_present": "Yes" if dispute_data.get("has_delivery_signature") else "No",
-        "device_fingerprint_match": "Yes" if dispute_data.get("device_hash_match") else "No",
-        "address_verification_match": "Yes" if dispute_data.get("avs_match") else "No",
-        "days_since_order": dispute_data.get("days_since_order")
+        "amount_inr": float(dispute_data.get("amount_inr", 0.0)),
+        "delivery_signature_present": bool(
+            dispute_data.get("has_delivery_signature")
+        ),
+        "device_fingerprint_match": bool(
+            dispute_data.get("device_hash_match")
+        ),
+        "address_verification_match": bool(
+            dispute_data.get("avs_match")
+        ),
+        "days_since_order": int(
+            dispute_data.get("days_since_order", 0)
+        ),
     }
 
-    # 2. Strict System Prompting
-    system_prompt = (
-        "You are an expert payment dispute specialist. Your job is to draft a formal "
-        "chargeback representment letter for a Visa 10.4 (Other Fraud - Card Absent Environment) dispute.\n"
-        "CRITICAL INSTRUCTIONS:\n"
-        "1. You must ONLY use the facts provided in the JSON.\n"
-        "2. DO NOT invent tracking numbers, customer names, or dates.\n"
-        "3. Keep the tone strictly professional, concise, and objective.\n"
-        "4. Structure with a clear header, body referencing the specific evidence, and a conclusion requesting reversal."
-    )
-    user_prompt = f"Draft the representment letter using ONLY these verified facts:\n{json.dumps(verified_facts, indent=2)}"
+    evidence_lines = _format_evidence(verified_facts)
+    evidence_summary = _build_evidence_summary(verified_facts)
+    shap_context = _build_shap_context(shap_factors)
 
-    # 3. LLM Execution (Mocked for hackathon reliability/speed)
-    # ---------------------------------------------------------
-    # In production: 
-    # client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-    # response = client.chat.completions.create(
-    #     model="gpt-4o-mini",
-    #     messages=[
-    #         {"role": "system", "content": system_prompt},
-    #         {"role": "user", "content": user_prompt}
-    #     ],
-    #     temperature=0.0 # Zero temperature for compliance-based outputs
-    # )
-    # return response.choices[0].message.content
-    # ---------------------------------------------------------
+    if evidence_lines:
+        evidence_section = "\n".join(
+            f"• {line}" for line in evidence_lines
+        )
+    else:
+        evidence_section = (
+            "• No positive supporting evidence identified "
+            "from the available transaction fields"
+        )
 
-    # Simulated LLM Output based strictly on the structured prompt guidelines:
     letter = f"""
-CHARGEBACK REPRESENTMENT: VISA REASON CODE 10.4
-Dispute ID: {verified_facts['dispute_id']}
-Transaction Amount: {verified_facts['amount']}
+CHARGEBACK REPRESENTMENT DRAFT
+VISA REASON CODE 10.4
 
-To the Arbitration Committee:
+Dispute ID: {verified_facts["dispute_id"]}
+Transaction Amount: INR {verified_facts["amount_inr"]:,.2f}
 
-We are contesting the chargeback filed under Visa Reason Code 10.4 (Other Fraud - Card Absent Environment). 
-We maintain that this transaction was legitimately authorized and fulfilled. We have compiled the following 
-verified telemetry and fulfillment data for your review:
+To the appropriate dispute review team:
 
-• Address Verification System (AVS): {'MATCHED' if verified_facts['address_verification_match'] == 'Yes' else 'UNAVAILABLE'}
-• Device Fingerprint Validation: {'MATCHED' if verified_facts['device_fingerprint_match'] == 'Yes' else 'UNAVAILABLE'}
-• Proof of Delivery (Signature): {'ACQUIRED' if verified_facts['delivery_signature_present'] == 'Yes' else 'NOT APPLICABLE'}
+We are submitting this transaction for review in connection with
+Visa Reason Code 10.4.
 
-The transaction occurred {verified_facts['days_since_order']} days prior to the dispute filing. 
-Based on the compelling evidence of matching device telemetry and valid fulfillment, we respectfully 
-request that this chargeback be reversed and liability placed back on the issuer.
+The available merchant transaction records contain the following
+verified information:
+
+VERIFIED TRANSACTION EVIDENCE
+-----------------------------
+{evidence_section}
+
+The transaction occurred {verified_facts["days_since_order"]} days
+prior to the reported dispute.
+
+EVIDENCE SUMMARY
+----------------
+{evidence_summary}
+
+These transaction records are being provided as supporting
+documentation for review. The evidence listed above reflects only
+information currently available in the merchant's transaction
+records.
+
+The presence of these signals does not, by itself, establish that
+the transaction satisfies every applicable representment
+requirement. The supporting records should therefore be evaluated
+against the applicable Visa requirements before submission.
+
+This document is a system-generated draft. Any additional evidence
+required for representment should be attached and validated by the
+merchant or dispute operations team before submission.
+{shap_context}
 
 Sincerely,
+
 Kavach Merchant Defense
 """
+
     return letter.strip()
