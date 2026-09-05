@@ -45,14 +45,37 @@ class RiskDecisionEngine:
         # 2. Calculate Financial Expected Value (EV)
         expected_value = (prob_win * amount) - ((1 - prob_win) * self.fee_dispute)
         
-        # 3. SHAP Feature Impact Extraction (Optional explainability layer)
+        # 3. SHAP Feature Impact Extraction (Robust to different SHAP output dimensions)
+        # 3. SHAP Feature Impact Extraction (Robust to dimensions & types)
         shap_summary = []
         if self.explainer:
             shap_values = self.explainer.shap_values(X)
-            vals = shap_values[1][0] if isinstance(shap_values, list) else shap_values[0, :, 1]
+            
+            if isinstance(shap_values, list):
+                vals = shap_values[1][0]
+            elif isinstance(shap_values, np.ndarray) and shap_values.ndim == 3:
+                vals = shap_values[0, :, 1]
+            elif isinstance(shap_values, np.ndarray) and shap_values.ndim == 2:
+                vals = shap_values[0]
+            else:
+                vals = np.zeros(len(self.feature_names))
+
             feature_impacts = sorted(zip(self.feature_names, vals, features), key=lambda x: abs(x[1]), reverse=True)
             for feat, val, raw_val in feature_impacts:
-                shap_summary.append({"feature": feat, "impact": float(val), "direction": "+" if val > 0 else "-", "value": raw_val})
+                # Convert numpy types to native Python types for JSON serialization
+                if hasattr(raw_val, "item"):
+                    raw_val = raw_val.item()
+                elif isinstance(raw_val, (np.integer,)):
+                    raw_val = int(raw_val)
+                elif isinstance(raw_val, (np.floating,)):
+                    raw_val = float(raw_val)
+
+                shap_summary.append({
+                    "feature": feat, 
+                    "impact": float(val), 
+                    "direction": "+" if val > 0 else "-", 
+                    "value": raw_val
+                })
 
         # 4. Three-Way Decision Hierarchy using Dynamic Break-Even & Risk Floors
         ABSOLUTE_MIN_WIN_PROB = 0.35
